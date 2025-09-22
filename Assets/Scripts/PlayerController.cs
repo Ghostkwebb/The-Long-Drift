@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Fuel System")]
     [SerializeField] private float maxFuel = 100f;
+    public float MaxFuel => maxFuel;
     [SerializeField] private float fuelConsumptionRate = 5f;
 
     public float CurrentFuel { get; private set; }

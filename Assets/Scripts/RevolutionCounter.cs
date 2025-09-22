@@ -1,24 +1,41 @@
 using UnityEngine;
+using TMPro;
 
 public class RevolutionCounter : MonoBehaviour
 {
+    [Header("Win Condition")]
     [SerializeField] private float revolutionsToWin = 2f;
+
+    [Header("UI Reference")]
+    [SerializeField] private TextMeshProUGUI revolutionText;
 
     private bool isTracking = false;
     private Transform orbitCenter;
     private Vector2 previousDirection;
     private float totalAngleTraversed = 0f;
 
-    // Public property for the UI to read from.
     public float RevolutionsCompleted => Mathf.Abs(totalAngleTraversed) / 360f;
+
+    private void Start()
+    {
+        if (revolutionText != null)
+        {
+            revolutionText.gameObject.SetActive(false);
+        }
+    }
 
     public void StartTracking(Transform center)
     {
         orbitCenter = center;
-        // Set the initial direction vector from the planet to the ship.
         previousDirection = (transform.position - orbitCenter.position).normalized;
         isTracking = true;
         totalAngleTraversed = 0f;
+
+        if (revolutionText != null)
+        {
+            revolutionText.gameObject.SetActive(true);
+        }
+
         Debug.Log("Entered orbit zone. Tracking revolutions.");
     }
 
@@ -26,34 +43,41 @@ public class RevolutionCounter : MonoBehaviour
     {
         isTracking = false;
         totalAngleTraversed = 0f;
+
+        if (revolutionText != null)
+        {
+            revolutionText.gameObject.SetActive(false);
+        }
+
         Debug.Log("Exited orbit zone. Tracking reset.");
     }
 
     private void FixedUpdate()
     {
-        // Only run the calculation if we are inside the win zone.
         if (!isTracking) return;
 
-        // 1. Get the current direction vector from the planet to the ship.
         Vector2 currentDirection = (transform.position - orbitCenter.position).normalized;
-
-        // 2. Calculate the small angle change since the last physics frame.
-        // Vector2.SignedAngle gives us a positive or negative value, which is crucial.
         float angleDelta = Vector2.SignedAngle(previousDirection, currentDirection);
-
-        // 3. Add this change to our total.
         totalAngleTraversed += angleDelta;
-
-        // 4. Update the previous direction for the next frame's calculation.
         previousDirection = currentDirection;
 
-        // 5. Check for the win condition.
+        UpdateRevolutionText();
+
         if (RevolutionsCompleted >= revolutionsToWin)
         {
             Debug.Log("WIN CONDITION MET! Two revolutions completed.");
-            // We disable tracking to prevent the win message from firing repeatedly.
             isTracking = false;
-            // Here we would eventually call a GameManager to handle the win state.
+            // We could add a GameManager call here.
+        }
+    }
+
+    private void UpdateRevolutionText()
+    {
+        if (revolutionText != null)
+        {
+            // "F1" formats the float to show one decimal place (e.g., 1.2)
+            string displayText = $"Orbits: {RevolutionsCompleted:F1} / {revolutionsToWin}";
+            revolutionText.text = displayText;
         }
     }
 }
