@@ -3,45 +3,62 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class GravityBody : MonoBehaviour
 {
-    // This constant determines the strength of gravity. Tweak this to change the feel.
     private const float GravitationalConstant = 0.667f;
+
+    public GravitySource[] Attractors { get; set; }
+    public Vector2 LastNetGravityForce { get; private set; }
 
     private Rigidbody2D rb;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        // Initialize the force to zero to avoid issues on the first frame.
+        LastNetGravityForce = Vector2.zero;
+    }
+
+    private void Start()
+    {
+        if (Attractors == null)
+        {
+            Attractors = FindObjectsByType<GravitySource>(FindObjectsSortMode.None);
+        }
     }
 
     private void FixedUpdate()
     {
-        // Loop through every GravitySource in the simulation.
-        foreach (var source in GravitySource.AllSources)
+        if (Attractors == null) return;
+
+        // Start with a fresh Vector2 for this frame's calculations.
+        Vector2 combinedForce = Vector2.zero;
+
+        // Loop through all sources and add their force to our 'combinedForce' variable.
+        foreach (var source in Attractors)
         {
-            ApplyGravityFromSource(source);
+            if (source != null)
+            {
+                combinedForce += CalculateForceFromSource(source);
+            }
         }
+
+        // Store this final, calculated force for other scripts to read.
+        LastNetGravityForce = combinedForce;
+
+        // Apply the single, combined force to the Rigidbody.
+        rb.AddForce(combinedForce);
     }
 
-    private void ApplyGravityFromSource(GravitySource source)
+    private Vector2 CalculateForceFromSource(GravitySource source)
     {
-        // Newton's Law of Universal Gravitation: F = G * (m1*m2) / r^2
+        // Safety check to prevent division by zero or weirdness if objects are at the same spot.
+        if (source.transform.position == transform.position) return Vector2.zero;
 
-        // 1. Calculate the direction vector from the ship to the source.
-        Vector2 direction = source.transform.position - transform.position;
-
-        // 2. Calculate the distance (r). We use SqrMagnitude for performance.
+        Vector2 direction = (Vector2)source.transform.position - rb.position;
         float distanceSqr = direction.sqrMagnitude;
 
-        // Avoid division by zero if the ship is exactly at the planet's center.
-        if (distanceSqr <= 0.01f) return;
+        if (distanceSqr <= 0.01f) return Vector2.zero;
 
-        // 3. Calculate the force magnitude.
         float forceMagnitude = GravitationalConstant * (rb.mass * source.mass) / distanceSqr;
-
-        // 4. Create the final force vector (magnitude + direction).
-        Vector2 forceVector = direction.normalized * forceMagnitude;
-
-        // 5. Apply the force.
-        rb.AddForce(forceVector);
+        return direction.normalized * forceMagnitude;
     }
 }

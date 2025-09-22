@@ -4,8 +4,15 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Ship Parameters")]
     [SerializeField] private float thrustForce = 10f;
     [SerializeField] private float rotationSpeed = 200f;
+
+    [Header("Fuel System")]
+    [SerializeField] private float maxFuel = 100f;
+    [SerializeField] private float fuelConsumptionRate = 5f;
+
+    public float CurrentFuel { get; private set; }
 
     private Rigidbody2D rb;
     private PlayerInputActions playerInputActions;
@@ -16,9 +23,10 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerInputActions = new PlayerInputActions();
 
-        // Subscribe our OnRotate method to the input action's events
         playerInputActions.Player.Rotate.performed += OnRotate;
         playerInputActions.Player.Rotate.canceled += OnRotate;
+
+        CurrentFuel = maxFuel;
     }
 
     private void OnEnable()
@@ -31,7 +39,6 @@ public class PlayerController : MonoBehaviour
         playerInputActions.Player.Disable();
     }
 
-    // Physics-based movement should always be in FixedUpdate for consistency.
     private void FixedUpdate()
     {
         HandleThrust();
@@ -40,21 +47,29 @@ public class PlayerController : MonoBehaviour
 
     private void HandleThrust()
     {
-        if (playerInputActions.Player.Thrust.IsPressed())
+        // Only allow thrust if we have fuel.
+        if (playerInputActions.Player.Thrust.IsPressed() && CurrentFuel > 0)
         {
-            // Apply force in the ship's forward direction (its local "up" axis)
             rb.AddForce(transform.up * thrustForce);
+
+            // Consume fuel. Multiplying by Time.fixedDeltaTime makes it rate-based.
+            CurrentFuel -= fuelConsumptionRate * Time.fixedDeltaTime;
         }
     }
 
     private void HandleRotation()
     {
-        // Apply torque. We negate the input to make D rotate clockwise.
         rb.AddTorque(-rotationInput * rotationSpeed * Time.fixedDeltaTime);
     }
 
     private void OnRotate(InputAction.CallbackContext context)
     {
         rotationInput = context.ReadValue<float>();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("LOSS CONDITION: Crashed!");
+        this.enabled = false;
     }
 }
