@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrustForce: 10
-  rotationSpeed: 20
+  rotationSpeed: 65.7
   maxFuel: 100
   fuelConsumptionRate: 5
 --- !u!50 &563703410
@@ -344,7 +344,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 2.98
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -440,6 +440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9a9797d4ee89447ea9cb6e68d880f62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GravitationalConstant: 3.25
 --- !u!114 &563703414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,7 +956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &798811161
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1917,7 +1918,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1
+  m_Radius: 5
 --- !u!58 &1815204867
 CircleCollider2D:
   m_ObjectHideFlags: 0

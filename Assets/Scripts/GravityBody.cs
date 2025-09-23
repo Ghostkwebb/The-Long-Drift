@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class GravityBody : MonoBehaviour
 {
-    private const float GravitationalConstant = 0.667f;
+    [SerializeField] private float GravitationalConstant = 0.9f;
 
     public GravitySource[] Attractors { get; set; }
     public Vector2 LastNetGravityForce { get; private set; }
