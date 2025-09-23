@@ -514,7 +514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   predictionSteps: 150
   timeStep: 0.05
-  gravityThreshold: 0.1
+  gravityThreshold: 0
   obstaclesParent: {fileID: 1293858961}
   collisionLayers:
     serializedVersion: 2

@@ -2,15 +2,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-[RequireComponent(typeof(LineRenderer))]
 public class TrajectoryPredictor : MonoBehaviour
 {
     [Header("Prediction Settings")]
     [SerializeField] private int predictionSteps = 150;
     [SerializeField] private float timeStep = 0.05f;
-
-    // --- NEW VARIABLE ---
-    [Tooltip("The minimum gravitational force needed to show the prediction line.")]
+    [Tooltip("Set this to 0 to force the line to always show for debugging.")]
     [SerializeField] private float gravityThreshold = 0.1f;
 
     [Header("Scene References")]
@@ -26,17 +23,25 @@ public class TrajectoryPredictor : MonoBehaviour
     private GameObject ghostPlayer;
     private Rigidbody2D ghostPlayerRb;
 
-    // --- NEW VARIABLE ---
-    // A list of the REAL attractors in the main scene.
     private GravitySource[] realAttractors;
+
+    private void Awake()
+    {
+        // Cleanup logic remains the same
+        for (int i = 0; i < SceneManager.sceneCount; i++)
+        {
+            Scene scene = SceneManager.GetSceneAt(i);
+            if (scene.name == "PredictionScene")
+            {
+                SceneManager.UnloadSceneAsync(scene);
+            }
+        }
+    }
 
     void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
         lineRenderer = GetComponent<LineRenderer>();
-
-        // --- NEW ---
-        // Find all real planets at the start for the threshold check.
         realAttractors = FindObjectsByType<GravitySource>(FindObjectsSortMode.None);
 
         CreatePredictionScene();
@@ -50,26 +55,39 @@ public class TrajectoryPredictor : MonoBehaviour
         predictionPhysicsScene = predictionScene.GetPhysicsScene2D();
     }
 
+    // --- THE NEW, ROBUST METHOD ---
     private void CreateGhostObjects()
     {
-        ghostPlayer = Instantiate(gameObject);
+        // 1. Create a brand new, empty GameObject for our physics probe.
+        ghostPlayer = new GameObject("Ghost Physics Probe");
+
+        // 2. Copy the Rigidbody2D properties from the real player.
+        ghostPlayerRb = ghostPlayer.AddComponent<Rigidbody2D>();
+        ghostPlayerRb.mass = playerRb.mass;
+        ghostPlayerRb.linearDamping = playerRb.linearDamping;
+        ghostPlayerRb.angularDamping = playerRb.angularDamping;
+        ghostPlayerRb.gravityScale = 0; // Essential for custom gravity
+
+        // 3. Copy the Collider2D properties from the real player.
+        // This example handles Circle and Box colliders.
+        var playerCollider = GetComponent<Collider2D>();
+        if (playerCollider is CircleCollider2D circle)
+        {
+            var ghostCircle = ghostPlayer.AddComponent<CircleCollider2D>();
+            ghostCircle.radius = circle.radius;
+            ghostCircle.offset = circle.offset;
+        }
+        else if (playerCollider is BoxCollider2D box)
+        {
+            var ghostBox = ghostPlayer.AddComponent<BoxCollider2D>();
+            ghostBox.size = box.size;
+            ghostBox.offset = box.offset;
+        }
+
+        // 4. Move the clean probe to the prediction scene.
         SceneManager.MoveGameObjectToScene(ghostPlayer, predictionScene);
-        ghostPlayerRb = ghostPlayer.GetComponent<Rigidbody2D>();
 
-        if (ghostPlayer.TryGetComponent<GravityBody>(out var gb))
-        {
-            gb.enabled = false;
-        }
-        if (ghostPlayer.TryGetComponent<GravityIndicator>(out var gi))
-        {
-            gi.enabled = false;
-        }
-
-        foreach (var renderer in ghostPlayer.GetComponentsInChildren<SpriteRenderer>())
-        {
-            renderer.enabled = false;
-        }
-
+        // Ghost planet creation is fine and remains the same.
         ghostAttractors.Clear();
         if (obstaclesParent != null)
         {
@@ -77,7 +95,6 @@ public class TrajectoryPredictor : MonoBehaviour
             {
                 GameObject ghostObstacle = Instantiate(child.gameObject);
                 SceneManager.MoveGameObjectToScene(ghostObstacle, predictionScene);
-
                 foreach (var renderer in ghostObstacle.GetComponentsInChildren<SpriteRenderer>())
                 {
                     renderer.enabled = false;
@@ -87,28 +104,24 @@ public class TrajectoryPredictor : MonoBehaviour
         }
     }
 
-    // --- MODIFIED METHOD ---
+    // ... The rest of the script (FixedUpdate, SimulateTrajectory, etc.) is correct and unchanged ...
     void FixedUpdate()
     {
         if (!predictionPhysicsScene.IsValid()) return;
 
-        // Calculate the current net gravity on the REAL player
         Vector2 netGravityForce = CalculateNetGravityForce();
-
-        // If the force is too weak, hide the line and do nothing else.
         if (netGravityForce.magnitude < gravityThreshold)
         {
-            lineRenderer.enabled = false;
+            lineRenderer.positionCount = 0; // A better way to hide the line
             return;
         }
 
-        // If the force is strong enough, show the line and run the simulation.
-        lineRenderer.enabled = true;
         SimulateTrajectory();
     }
 
     private void SimulateTrajectory()
     {
+        lineRenderer.enabled = true;
         ghostPlayer.transform.position = transform.position;
         ghostPlayer.transform.rotation = transform.rotation;
         ghostPlayerRb.linearVelocity = playerRb.linearVelocity;
@@ -119,18 +132,15 @@ public class TrajectoryPredictor : MonoBehaviour
         for (int i = 0; i < predictionSteps; i++)
         {
             ApplyGhostGravity();
-
             Vector3 previousPosition = ghostPlayer.transform.position;
             predictionPhysicsScene.Simulate(timeStep);
             Vector3 currentPosition = ghostPlayer.transform.position;
-
             RaycastHit2D hit = Physics2D.Linecast(previousPosition, currentPosition, collisionLayers);
             if (hit.collider != null)
             {
                 positions.Add(hit.point);
                 break;
             }
-
             positions.Add(currentPosition);
         }
 
@@ -146,30 +156,25 @@ public class TrajectoryPredictor : MonoBehaviour
             Vector2 direction = (Vector2)source.transform.position - ghostPlayerRb.position;
             float distanceSqr = direction.sqrMagnitude;
             if (distanceSqr <= 0.01f) continue;
-
             float forceMagnitude = GravitationalConstant * (ghostPlayerRb.mass * source.mass) / distanceSqr;
             Vector2 forceVector = direction.normalized * forceMagnitude;
             ghostPlayerRb.AddForce(forceVector);
         }
     }
 
-    // --- NEW METHOD ---
-    // Calculates the combined gravity from all real planets on the real player.
     private Vector2 CalculateNetGravityForce()
     {
         const float GravitationalConstant = 0.667f;
         Vector2 netForce = Vector2.zero;
-
         foreach (var source in realAttractors)
         {
+            if (source == null) continue;
             Vector2 direction = (Vector2)source.transform.position - playerRb.position;
             float distanceSqr = direction.sqrMagnitude;
             if (distanceSqr <= 0.01f) continue;
-
             float forceMagnitude = GravitationalConstant * (playerRb.mass * source.mass) / distanceSqr;
             netForce += direction.normalized * forceMagnitude;
         }
-
         return netForce;
     }
 
