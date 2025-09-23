@@ -1,39 +1,42 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class GravityBody : MonoBehaviour
 {
-    [SerializeField] private float GravitationalConstant = 0.9f;
+    [Header("Gravity Setup")]
+    [Tooltip("Drag the parent object containing all planets/attractors here.")]
+    [SerializeField] private Transform attractorsParent;
 
-    public GravitySource[] Attractors { get; set; }
+    private const float GravitationalConstant = 0.667f;
+    private List<GravitySource> attractors;
     public Vector2 LastNetGravityForce { get; private set; }
-
     private Rigidbody2D rb;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        // Initialize the force to zero to avoid issues on the first frame.
         LastNetGravityForce = Vector2.zero;
-    }
 
-    private void Start()
-    {
-        if (Attractors == null)
+        attractors = new List<GravitySource>();
+        if (attractorsParent != null)
         {
-            Attractors = FindObjectsByType<GravitySource>(FindObjectsSortMode.None);
+            foreach (Transform child in attractorsParent)
+            {
+                if (child.TryGetComponent(out GravitySource source))
+                {
+                    attractors.Add(source);
+                }
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        if (Attractors == null) return;
+        if (attractors == null) return;
 
-        // Start with a fresh Vector2 for this frame's calculations.
         Vector2 combinedForce = Vector2.zero;
-
-        // Loop through all sources and add their force to our 'combinedForce' variable.
-        foreach (var source in Attractors)
+        foreach (var source in attractors)
         {
             if (source != null)
             {
@@ -41,23 +44,21 @@ public class GravityBody : MonoBehaviour
             }
         }
 
-        // Store this final, calculated force for other scripts to read.
         LastNetGravityForce = combinedForce;
 
-        // Apply the single, combined force to the Rigidbody.
-        rb.AddForce(combinedForce);
+        // --- THE DEFINITIVE FIX ---
+        // Instead of using AddForce, we calculate the acceleration and add it directly to the velocity.
+        // This is a form of Euler integration and is much more stable for orbital calculations.
+        Vector2 acceleration = combinedForce / rb.mass;
+        rb.linearVelocity += acceleration * Time.fixedDeltaTime;
     }
 
     private Vector2 CalculateForceFromSource(GravitySource source)
     {
-        // Safety check to prevent division by zero or weirdness if objects are at the same spot.
         if (source.transform.position == transform.position) return Vector2.zero;
-
         Vector2 direction = (Vector2)source.transform.position - rb.position;
         float distanceSqr = direction.sqrMagnitude;
-
         if (distanceSqr <= 0.01f) return Vector2.zero;
-
         float forceMagnitude = GravitationalConstant * (rb.mass * source.mass) / distanceSqr;
         return direction.normalized * forceMagnitude;
     }
