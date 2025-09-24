@@ -566,7 +566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   revolutionsToWin: 2
-  revolutionsToLock: 0.8
+  timeToLockRotation: 1
   revolutionText: {fileID: 681291660}
 --- !u!61 &563703415
 BoxCollider2D:

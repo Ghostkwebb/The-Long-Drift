@@ -8,7 +8,8 @@ public class RevolutionCounter : MonoBehaviour
     [SerializeField] private float revolutionsToWin = 1f;
 
     [Header("Orbit Lock")]
-    [SerializeField] private float revolutionsToLock = 0.6f;
+    [Tooltip("How long the player must go without rotation input before the ship locks to prograde.")]
+    [SerializeField] private float timeToLockRotation = 1.5f;
 
     [Header("UI Reference")]
     [SerializeField] private TextMeshProUGUI revolutionText;
@@ -110,28 +111,33 @@ public class RevolutionCounter : MonoBehaviour
             playerController.SetOrbitingState(false);
             Debug.Log("Player input detected, unlocking orbit control.");
         }
-        totalAngleTraversed = 0f;
     }
 
     private void HandleStableFlight()
     {
         UpdateOrbitProgress();
 
-        if (!isOrbitLocked && RevolutionsCompleted >= revolutionsToLock)
+        if (!isOrbitLocked && playerController.TimeWithoutRotationInput >= timeToLockRotation)
         {
             isOrbitLocked = true;
             playerController.SetOrbitingState(true);
-            Debug.Log("Stable orbit of " + revolutionsToLock + " achieved. Locking rotation.");
+            Debug.Log("Stable trajectory detected for " + timeToLockRotation + "s. Locking rotation.");
         }
     }
 
     private void UpdateOrbitProgress()
     {
+        if (playerController.TimeWithoutRotationInput == 0f)
+        {
+            totalAngleTraversed = 0f;
+        }
+
         Vector2 currentDirection = (transform.position - orbitCenter.position).normalized;
         float angleDelta = Vector2.SignedAngle(previousDirection, currentDirection);
         totalAngleTraversed += angleDelta;
         previousDirection = currentDirection;
     }
+
 
     private void CheckWinCondition()
     {

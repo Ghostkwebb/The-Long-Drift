@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
 
     public float Speed => rb.linearVelocity.magnitude;
 
+    public float TimeWithoutRotationInput { get; private set; }
     public bool IsProvidingInput { get; private set; }
 
 
@@ -54,6 +55,15 @@ public class PlayerController : MonoBehaviour
         bool isThrusting = playerInputActions.Player.Thrust.IsPressed();
         bool isRotating = Mathf.Abs(rotationInput) > 0.01f;
         IsProvidingInput = isThrusting || isRotating;
+
+        if (isRotating)
+        {
+            TimeWithoutRotationInput = 0f;
+        }
+        else
+        {
+            TimeWithoutRotationInput += Time.deltaTime;
+        }
     }
 
     public void SetOrbitingState(bool orbiting)
