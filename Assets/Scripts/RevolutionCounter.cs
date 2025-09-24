@@ -5,10 +5,9 @@ using TMPro;
 public class RevolutionCounter : MonoBehaviour
 {
     [Header("Win Condition")]
-    [SerializeField] private float revolutionsToWin = 1f;
+    [SerializeField] private float revolutionsToWin = 2f;
 
     [Header("Orbit Lock")]
-    [Tooltip("How long the player must go without rotation input before the ship locks to prograde.")]
     [SerializeField] private float timeToLockRotation = 1.5f;
 
     [Header("UI Reference")]
@@ -16,7 +15,7 @@ public class RevolutionCounter : MonoBehaviour
 
     private PlayerController playerController;
     private bool winConditionMet = false;
-
+    private bool checkpointActivated = false;
     private bool isTracking = false;
     private Transform orbitCenter;
     private Vector2 previousDirection;
@@ -60,26 +59,23 @@ public class RevolutionCounter : MonoBehaviour
         isTracking = true;
         totalAngleTraversed = 0f;
         winConditionMet = false;
+        checkpointActivated = false; // Reset both flags
 
         if (revolutionText != null)
         {
             revolutionText.gameObject.SetActive(true);
         }
-        Debug.Log("Entered orbit zone around " + center.name + ". Tracking orbits.");
     }
 
     public void StopTracking()
     {
         isTracking = false;
         totalAngleTraversed = 0f;
-
         if (isOrbitLocked)
         {
             isOrbitLocked = false;
             playerController.SetOrbitingState(false);
-            Debug.Log("Exited orbit zone. Manual control restored.");
         }
-
         if (revolutionText != null)
         {
             revolutionText.gameObject.SetActive(false);
@@ -90,6 +86,7 @@ public class RevolutionCounter : MonoBehaviour
     {
         if (!isTracking || playerController == null || orbitCenter == null) return;
 
+        // This is now the main logic gate.
         if (playerController.IsProvidingInput)
         {
             HandlePlayerInput();
@@ -99,17 +96,22 @@ public class RevolutionCounter : MonoBehaviour
             HandleStableFlight();
         }
 
-        CheckWinCondition();
         UpdateRevolutionText();
     }
 
     private void HandlePlayerInput()
     {
+        // Unlock orbit if it was locked.
         if (isOrbitLocked)
         {
             isOrbitLocked = false;
             playerController.SetOrbitingState(false);
-            Debug.Log("Player input detected, unlocking orbit control.");
+        }
+
+        // Any rotation input resets the orbit progress.
+        if (playerController.TimeWithoutRotationInput == 0f)
+        {
+            totalAngleTraversed = 0f;
         }
     }
 
@@ -121,32 +123,40 @@ public class RevolutionCounter : MonoBehaviour
         {
             isOrbitLocked = true;
             playerController.SetOrbitingState(true);
-            Debug.Log("Stable trajectory detected for " + timeToLockRotation + "s. Locking rotation.");
         }
+
+        CheckForCompletion();
     }
 
+    // This method now only does one thing: count.
     private void UpdateOrbitProgress()
     {
-        if (playerController.TimeWithoutRotationInput == 0f)
-        {
-            totalAngleTraversed = 0f;
-        }
-
         Vector2 currentDirection = (transform.position - orbitCenter.position).normalized;
         float angleDelta = Vector2.SignedAngle(previousDirection, currentDirection);
         totalAngleTraversed += angleDelta;
         previousDirection = currentDirection;
     }
 
-
-    private void CheckWinCondition()
+    private void CheckForCompletion()
     {
-        if (winConditionMet || RevolutionsCompleted < revolutionsToWin) return;
+        if (RevolutionsCompleted < revolutionsToWin) return;
 
-        if (orbitCenter.TryGetComponent(out GravitySource source) && source.isDestination)
+        if (orbitCenter.TryGetComponent(out GravitySource source))
         {
-            winConditionMet = true;
-            Debug.Log("WIN CONDITION MET! " + revolutionsToWin + " orbits completed around destination.");
+            if ((source.isCheckpoint || source.isStartingPlanet) && !checkpointActivated)
+            {
+                checkpointActivated = true;
+                Vector2 currentVelocity = GetComponent<Rigidbody2D>().linearVelocity;
+                GameManager.Instance.SetCheckpoint(orbitCenter, transform.position, currentVelocity);
+                playerController.RefillFuel();
+                Debug.Log($"CHECKPOINT/REFUEL at {orbitCenter.name} after {revolutionsToWin} stable orbits.");
+            }
+
+            if (source.isDestination && !winConditionMet)
+            {
+                winConditionMet = true;
+                Debug.Log("WIN CONDITION MET!");
+            }
         }
     }
 
@@ -154,7 +164,8 @@ public class RevolutionCounter : MonoBehaviour
     {
         if (revolutionText != null)
         {
-            string displayText = $"Orbits: {RevolutionsCompleted:F1} / {revolutionsToWin}";
+            float displayRevolutions = Mathf.Min(RevolutionsCompleted, revolutionsToWin);
+            string displayText = $"Orbits: {displayRevolutions:F1} / {revolutionsToWin}";
             revolutionText.text = displayText;
         }
     }

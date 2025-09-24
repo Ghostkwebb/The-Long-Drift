@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Linq;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -11,11 +12,26 @@ public class PlayerController : MonoBehaviour
     [Tooltip("How quickly the ship aligns to its velocity vector while orbiting.")]
     [SerializeField] private float progradeRotationSpeed = 5f;
 
+
+    [Header("Boost")]
+    [Tooltip("Multiplier applied to thrust force when boosting.")]
+    [SerializeField] private float boostMultiplier = 2.5f;
+    [Tooltip("Multiplier applied to fuel consumption when boosting.")]
+    [SerializeField] private float boostFuelConsumptionMultiplier = 3f;
+
+
     [Header("Fuel System")]
     [SerializeField] private float maxFuel = 100f;
     public float MaxFuel => maxFuel;
     [SerializeField] private float fuelConsumptionRate = 5f;
     public float CurrentFuel { get; private set; }
+
+    [Header("Spawning")]
+    [Tooltip("The distance from the start planet's center to spawn at.")]
+    [SerializeField] private float startOrbitDistance = 8f;
+    [Tooltip("Should the initial orbit be clockwise?")]
+    [SerializeField] private bool startOrbitClockwise = false;
+
 
     public float Speed => rb.linearVelocity.magnitude;
 
@@ -28,6 +44,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private PlayerInputActions playerInputActions;
     private float rotationInput;
+    private bool hasSpawned = false;
 
     private void Awake()
     {
@@ -39,6 +56,13 @@ public class PlayerController : MonoBehaviour
 
         CurrentFuel = maxFuel;
     }
+
+    public void RefillFuel()
+    {
+        Debug.Log("Fuel refilled!");
+        CurrentFuel = maxFuel;
+    }
+
 
     private void OnEnable()
     {
@@ -74,6 +98,12 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!hasSpawned)
+        {
+            hasSpawned = true;
+            HandleSpawning(); // Renamed for clarity
+        }
+
         if (isOrbiting)
         {
             HandleOrbitingControls();
@@ -83,6 +113,43 @@ public class PlayerController : MonoBehaviour
             HandleManualControls();
         }
     }
+
+    private void HandleSpawning()
+    {
+        if (GameManager.Instance != null && GameManager.Instance.HasCheckpoint)
+        {
+            Debug.Log("Spawning at checkpoint.");
+            transform.position = GameManager.Instance.GetCheckpointPosition();
+            rb.linearVelocity = GameManager.Instance.GetCheckpointVelocity();
+            rb.angularVelocity = 0f;
+            return;
+        }
+
+        GravitySource startPlanet = FindObjectsByType<GravitySource>(FindObjectsSortMode.None)
+            .FirstOrDefault(s => s.isStartingPlanet);
+
+        if (startPlanet != null)
+        {
+            Debug.Log("Spawning in orbit around start planet: " + startPlanet.name);
+
+            // 1. Set Position: Place the ship to the right of the planet.
+            Vector2 startPosition = (Vector2)startPlanet.transform.position + new Vector2(startOrbitDistance, 0);
+            transform.position = startPosition;
+
+            // 2. Calculate Orbital Velocity:
+            // The formula for a stable circular orbit is v = sqrt(G * M / r)
+            // We need to match the constant from our GravityBody script.
+            const float GravitationalConstant = 0.667f;
+            float planetMass = startPlanet.mass;
+            float speed = Mathf.Sqrt((GravitationalConstant * planetMass) / startOrbitDistance);
+
+            // The velocity direction must be perpendicular to the position.
+            Vector2 velocityDirection = startOrbitClockwise ? Vector2.down : Vector2.up;
+            rb.linearVelocity = velocityDirection * speed;
+            rb.angularVelocity = 0f;
+        }
+    }
+
 
     private void HandleManualControls()
     {
@@ -109,13 +176,16 @@ public class PlayerController : MonoBehaviour
 
     private void HandleThrust()
     {
-        // Only allow thrust if we have fuel.
         if (playerInputActions.Player.Thrust.IsPressed() && CurrentFuel > 0)
         {
-            rb.AddForce(transform.up * thrustForce);
+            bool isBoosting = playerInputActions.Player.Boost.IsPressed();
 
-            // Consume fuel. Multiplying by Time.fixedDeltaTime makes it rate-based.
-            CurrentFuel -= fuelConsumptionRate * Time.fixedDeltaTime;
+            float currentThrust = isBoosting ? thrustForce * boostMultiplier : thrustForce;
+            float currentFuelRate = isBoosting ? fuelConsumptionRate * boostFuelConsumptionMultiplier : fuelConsumptionRate;
+
+            rb.AddForce(transform.up * currentThrust);
+
+            CurrentFuel -= currentFuelRate * Time.fixedDeltaTime;
         }
     }
 
@@ -132,6 +202,12 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("LOSS CONDITION: Crashed!");
-        this.enabled = false;
+
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.RespawnPlayer(1.0f);
+        }
+
+        gameObject.SetActive(false);
     }
 }
