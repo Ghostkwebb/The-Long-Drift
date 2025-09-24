@@ -101,7 +101,7 @@ public class PlayerController : MonoBehaviour
         if (!hasSpawned)
         {
             hasSpawned = true;
-            HandleSpawning(); // Renamed for clarity
+            HandleSpawning();
         }
 
         if (isOrbiting)
@@ -110,9 +110,32 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            HandleManualControls();
+            bool isBoosting = playerInputActions.Player.Boost.IsPressed();
+            if (isBoosting)
+            {
+                HandleBoost();
+            }
+            else
+            {
+                HandleManualControls();
+            }
         }
     }
+
+    private void HandleBoost()
+    {
+        if (CurrentFuel > 0)
+        {
+            float boostThrust = thrustForce * boostMultiplier;
+            float boostFuelRate = fuelConsumptionRate * boostFuelConsumptionMultiplier;
+
+            rb.AddForce(transform.up * boostThrust);
+
+            CurrentFuel -= boostFuelRate * Time.fixedDeltaTime;
+        }
+        HandleRotation();
+    }
+
 
     private void HandleSpawning()
     {
@@ -159,8 +182,16 @@ public class PlayerController : MonoBehaviour
 
     private void HandleOrbitingControls()
     {
-        HandleThrust();
-        AlignToPrograde();
+        bool isBoosting = playerInputActions.Player.Boost.IsPressed();
+        if (isBoosting)
+        {
+            HandleBoost();
+        }
+        else
+        {
+            HandleThrust();
+            AlignToPrograde();
+        }
     }
 
     private void AlignToPrograde()
@@ -178,14 +209,8 @@ public class PlayerController : MonoBehaviour
     {
         if (playerInputActions.Player.Thrust.IsPressed() && CurrentFuel > 0)
         {
-            bool isBoosting = playerInputActions.Player.Boost.IsPressed();
-
-            float currentThrust = isBoosting ? thrustForce * boostMultiplier : thrustForce;
-            float currentFuelRate = isBoosting ? fuelConsumptionRate * boostFuelConsumptionMultiplier : fuelConsumptionRate;
-
-            rb.AddForce(transform.up * currentThrust);
-
-            CurrentFuel -= currentFuelRate * Time.fixedDeltaTime;
+            rb.AddForce(transform.up * thrustForce);
+            CurrentFuel -= fuelConsumptionRate * Time.fixedDeltaTime;
         }
     }
 

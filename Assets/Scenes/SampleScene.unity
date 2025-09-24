@@ -179,8 +179,8 @@ MonoBehaviour:
   targetGroup: {fileID: 746624378}
   playerTransform: {fileID: 563703412}
   planetsParent: {fileID: 1293858961}
-  framingDistance: 40
-  weightBlendSpeed: 2
+  framingDistance: 100
+  weightBlendSpeed: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,6 +391,8 @@ MonoBehaviour:
   thrustForce: 10
   rotationSpeed: 65.7
   progradeRotationSpeed: 5
+  boostMultiplier: 2.5
+  boostFuelConsumptionMultiplier: 3
   maxFuel: 100
   fuelConsumptionRate: 1
   startOrbitDistance: 15
@@ -709,6 +711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowTransform: {fileID: 815406243}
+  planetsParent: {fileID: 1293858961}
   positionOffset: {x: 0, y: -3}
   rotationOffset: 0
   minScale: 0.5
@@ -1689,6 +1692,7 @@ GameObject:
   - component: {fileID: 1010325218}
   - component: {fileID: 1010325217}
   - component: {fileID: 1010325219}
+  - component: {fileID: 1010325220}
   m_Layer: 0
   m_Name: PlayerFollowCamera
   m_TagString: Untagged
@@ -1796,11 +1800,11 @@ MonoBehaviour:
       Size: {x: 0.2, y: 0.2}
     HardLimits:
       Enabled: 0
-      Size: {x: 0.8, y: 0.8}
+      Size: {x: 0.99, y: 0.99}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 1, y: 1, z: 1}
+  Damping: {x: 0, y: 0, z: 0}
   Lookahead:
     Enabled: 0
     Time: 0
@@ -1823,6 +1827,22 @@ MonoBehaviour:
   zoomStep: 2
   zoomSmoothSpeed: 10
   autoZoomHeadroom: 20
+--- !u!114 &1010325220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010325212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7304c92ff7b6142b49a282c4da1329bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRigidbody: {fileID: 563703410}
+  minDamping: 1
+  maxDamping: 0
+  speedForMaxDamping: 50
 --- !u!1 &1293858960
 GameObject:
   m_ObjectHideFlags: 0
