@@ -8,7 +8,7 @@ public class GravityBody : MonoBehaviour
     [Tooltip("Drag the parent object containing all planets/attractors here.")]
     [SerializeField] private Transform attractorsParent;
 
-    private const float GravitationalConstant = 0.667f;
+    [SerializeField] private float GravitationalConstant = 0.667f;
     private List<GravitySource> attractors;
     public Vector2 LastNetGravityForce { get; private set; }
     private Rigidbody2D rb;
