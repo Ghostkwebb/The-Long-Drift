@@ -314,19 +314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a8fc9d488d14501b41966b0c7e3b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 563703412}
-  planetsParent: {fileID: 1293858961}
-  defaultZoom: 25
-  framingDistanceStart: 60
-  framingDistanceEnd: 40
-  framingPadding: 5
-  followSmoothTime: 0.1
-  zoomSmoothTime: 0.2
-  mainCamera: {fileID: 0}
-  allPlanetSources: []
-  closestPlanet: {fileID: 0}
-  followVelocity: {x: 0, y: 0, z: 0}
-  zoomVelocity: 0
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,14 +329,13 @@ MonoBehaviour:
   playerTransform: {fileID: 563703412}
   planetsParent: {fileID: 1293858961}
   minZoom: 15
-  maxZoom: 40
-  defaultZoom: 25
+  maxZoom: 50
+  defaultZoom: 30
   zoomSpeed: 5
-  panDistanceStart: 60
-  panDistanceEnd: 30
-  maxPanOffset: 0.3
-  followSmoothTime: 0.1
-  zoomSmoothTime: 0.15
+  framingDistanceStart: 200
+  framingDistanceEnd: 100
+  followSmoothTime: 0.05
+  zoomSmoothTime: 0.75
 --- !u!1 &563703408
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,15 +373,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b7aef85b765543578b51a3499b4c4e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrustForce: 10
-  rotationSpeed: 65.7
-  progradeRotationSpeed: 5
-  boostMultiplier: 2.5
-  boostFuelConsumptionMultiplier: 3
+  thrustForce: 7
+  rotationSpeed: 400
+  progradeRotationSpeed: 10
+  boostMultiplier: 5
+  boostFuelConsumptionMultiplier: 10
   maxFuel: 100
   fuelConsumptionRate: 1
-  startOrbitDistance: 15
-  startOrbitClockwise: 1
+  startOrbitDistance: 20
+  startOrbitClockwise: 0
 --- !u!50 &563703410
 Rigidbody2D:
   serializedVersion: 5
@@ -410,7 +396,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 0.7
   m_LinearDamping: 0
-  m_AngularDamping: 2
+  m_AngularDamping: 20
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -521,7 +507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   revolutionsToWin: 2
-  timeToLockRotation: 5
+  timeToLockRotation: 2.5
   revolutionText: {fileID: 681291660}
 --- !u!61 &563703415
 BoxCollider2D:
@@ -986,7 +972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: mass
-      value: 15000
+      value: 20000
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isCheckpoint
@@ -2082,7 +2068,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: mass
-      value: 15000
+      value: 30000
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isCheckpoint

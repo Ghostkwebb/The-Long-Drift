@@ -8,6 +8,11 @@ public class GravityBody : MonoBehaviour
     [Tooltip("Drag the parent object containing all planets/attractors here.")]
     [SerializeField] private Transform attractorsParent;
 
+    [Header("Dynamic Drag")]
+    [SerializeField] private float deepSpaceDrag = 0.3f;
+    [SerializeField] private float gravityWellThreshold = 5f;
+
+
     [SerializeField] private float GravitationalConstant = 0.667f;
     private List<GravitySource> attractors;
     public Vector2 LastNetGravityForce { get; private set; }
@@ -45,6 +50,17 @@ public class GravityBody : MonoBehaviour
         }
 
         LastNetGravityForce = combinedForce;
+
+        if (combinedForce.magnitude < gravityWellThreshold)
+        {
+            // We are in deep space, so apply drag
+            rb.linearDamping = deepSpaceDrag;
+        }
+        else
+        {
+            // We are in a gravity well, so disable drag for orbiting
+            rb.linearDamping = 0;
+        }
 
         // --- THE DEFINITIVE FIX ---
         // Instead of using AddForce, we calculate the acceleration and add it directly to the velocity.
