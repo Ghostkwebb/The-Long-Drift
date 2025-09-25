@@ -332,8 +332,8 @@ MonoBehaviour:
   maxZoom: 50
   defaultZoom: 30
   zoomSpeed: 5
-  framingDistanceStart: 200
-  framingDistanceEnd: 100
+  framingDistanceStart: 100
+  framingDistanceEnd: 80
   followSmoothTime: 0.05
   zoomSmoothTime: 0.75
 --- !u!1 &563703408
