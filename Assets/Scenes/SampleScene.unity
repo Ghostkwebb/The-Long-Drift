@@ -376,8 +376,8 @@ MonoBehaviour:
   thrustForce: 7
   rotationSpeed: 400
   progradeRotationSpeed: 10
-  timeToLockRotation: 5
-  boostMultiplier: 5
+  timeToLockRotation: 2.5
+  boostMultiplier: 2.5
   boostFuelConsumptionMultiplier: 10
   maxFuel: 100
   fuelConsumptionRate: 1
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attractorsParent: {fileID: 1293858961}
-  deepSpaceDrag: 0.1
+  deepSpaceDrag: 0.2
   gravityWellThreshold: 1
   GravitationalConstant: 0.667
 --- !u!114 &563703414
