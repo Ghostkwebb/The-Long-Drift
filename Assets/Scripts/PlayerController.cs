@@ -31,8 +31,10 @@ public class PlayerController : MonoBehaviour
     public float CurrentFuel { get; private set; }
 
     [Header("Spawning")]
-    [Tooltip("The distance from the start planet's center to spawn at.")]
-    [SerializeField] private float startOrbitDistance = 8f;
+    [Tooltip("The closest distance the player will be to the start planet.")]
+    [SerializeField] private float startOrbitPeriapsis = 8f;
+    [Tooltip("The farthest distance the player will be from the start planet. Set to Periapsis for a circular orbit.")]
+    [SerializeField] private float startOrbitApoapsis = 15f;
     [Tooltip("Should the initial orbit be clockwise?")]
     [SerializeField] private bool startOrbitClockwise = false;
 
@@ -168,20 +170,29 @@ public class PlayerController : MonoBehaviour
 
         if (startPlanet != null)
         {
-            Debug.Log("Spawning in orbit around start planet: " + startPlanet.name);
+            Debug.Log("Spawning in elliptical orbit around start planet: " + startPlanet.name);
 
-            // 1. Set Position: Place the ship to the right of the planet.
-            Vector2 startPosition = (Vector2)startPlanet.transform.position + new Vector2(startOrbitDistance, 0);
-            transform.position = startPosition;
+            float r_p = startOrbitPeriapsis;
+            float r_a = Mathf.Max(r_p, startOrbitApoapsis);
 
-            // 2. Calculate Orbital Velocity:
-            // The formula for a stable circular orbit is v = sqrt(G * M / r)
-            // We need to match the constant from our GravityBody script.
+            transform.position = (Vector2)startPlanet.transform.position + new Vector2(r_p, 0);
+
+            // We must use the GravitationalConstant from the GravityBody script to match the physics.
+            // Since we can't access it directly, we will use the same value here.
             const float GravitationalConstant = 0.667f;
             float planetMass = startPlanet.mass;
-            float speed = Mathf.Sqrt((GravitationalConstant * planetMass) / startOrbitDistance);
 
-            // The velocity direction must be perpendicular to the position.
+            // The vis-viva equation for speed at periapsis
+            float speedNumerator = 2 * GravitationalConstant * planetMass * r_a;
+            float speedDenominator = r_p * (r_a + r_p);
+            // Handle potential division by zero if r_p is zero
+            if (speedDenominator <= 0)
+            {
+                rb.linearVelocity = Vector2.zero;
+                return;
+            }
+            float speed = Mathf.Sqrt(speedNumerator / speedDenominator);
+
             Vector2 velocityDirection = startOrbitClockwise ? Vector2.down : Vector2.up;
             rb.linearVelocity = velocityDirection * speed;
             rb.angularVelocity = 0f;

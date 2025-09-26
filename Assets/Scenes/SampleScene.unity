@@ -381,7 +381,8 @@ MonoBehaviour:
   boostFuelConsumptionMultiplier: 10
   maxFuel: 100
   fuelConsumptionRate: 1
-  startOrbitDistance: 20
+  startOrbitPeriapsis: 23
+  startOrbitApoapsis: 30
   startOrbitClockwise: 0
 --- !u!50 &563703410
 Rigidbody2D:
@@ -573,9 +574,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxPredictionSteps: 300
   timeStep: 0.05
-  gravityThreshold: 0
-  orbitCloseThreshold: 1
-  minStepsForOrbitCheck: 50
   obstaclesParent: {fileID: 1293858961}
   collisionLayers:
     serializedVersion: 2
