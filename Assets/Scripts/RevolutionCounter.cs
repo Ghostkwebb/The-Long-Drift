@@ -7,9 +7,6 @@ public class RevolutionCounter : MonoBehaviour
     [Header("Win Condition")]
     [SerializeField] private float revolutionsToWin = 2f;
 
-    [Header("Orbit Lock")]
-    [SerializeField] private float timeToLockRotation = 1.5f;
-
     [Header("UI Reference")]
     [SerializeField] private TextMeshProUGUI revolutionText;
 
@@ -20,7 +17,6 @@ public class RevolutionCounter : MonoBehaviour
     private Transform orbitCenter;
     private Vector2 previousDirection;
     private float totalAngleTraversed = 0f;
-    private bool isOrbitLocked = false;
 
     public float RevolutionsCompleted => Mathf.Abs(totalAngleTraversed) / 360f;
 
@@ -54,12 +50,13 @@ public class RevolutionCounter : MonoBehaviour
 
     public void StartTracking(Transform center)
     {
+        if (isTracking && orbitCenter == center) return;
+
         orbitCenter = center;
         previousDirection = (transform.position - orbitCenter.position).normalized;
         isTracking = true;
         totalAngleTraversed = 0f;
         winConditionMet = false;
-        checkpointActivated = false; // Reset both flags
 
         if (revolutionText != null)
         {
@@ -71,11 +68,7 @@ public class RevolutionCounter : MonoBehaviour
     {
         isTracking = false;
         totalAngleTraversed = 0f;
-        if (isOrbitLocked)
-        {
-            isOrbitLocked = false;
-            playerController.SetOrbitingState(false);
-        }
+        checkpointActivated = false;
         if (revolutionText != null)
         {
             revolutionText.gameObject.SetActive(false);
@@ -84,48 +77,19 @@ public class RevolutionCounter : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!isTracking || playerController == null || orbitCenter == null) return;
+        if (!isTracking) return;
 
-        // This is now the main logic gate.
-        if (playerController.IsProvidingInput)
-        {
-            HandlePlayerInput();
-        }
-        else // Player is hands-free
-        {
-            HandleStableFlight();
-        }
-
-        UpdateRevolutionText();
-    }
-
-    private void HandlePlayerInput()
-    {
-        // Unlock orbit if it was locked.
-        if (isOrbitLocked)
-        {
-            isOrbitLocked = false;
-            playerController.SetOrbitingState(false);
-        }
-
-        // Any rotation input resets the orbit progress.
         if (playerController.TimeWithoutRotationInput == 0f)
         {
             totalAngleTraversed = 0f;
         }
-    }
-
-    private void HandleStableFlight()
-    {
-        UpdateOrbitProgress();
-
-        if (!isOrbitLocked && playerController.TimeWithoutRotationInput >= timeToLockRotation)
+        else
         {
-            isOrbitLocked = true;
-            playerController.SetOrbitingState(true);
+            UpdateOrbitProgress();
         }
 
         CheckForCompletion();
+        UpdateRevolutionText();
     }
 
     // This method now only does one thing: count.

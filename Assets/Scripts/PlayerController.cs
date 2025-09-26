@@ -12,6 +12,10 @@ public class PlayerController : MonoBehaviour
     [Tooltip("How quickly the ship aligns to its velocity vector while orbiting.")]
     [SerializeField] private float progradeRotationSpeed = 5f;
 
+    [Header("Autopilot")]
+    [Tooltip("How long the player must go without rotation input before the ship locks to prograde.")]
+    [SerializeField] private float timeToLockRotation = 1.5f;
+
 
     [Header("Boost")]
     [Tooltip("Multiplier applied to thrust force when boosting.")]
@@ -87,6 +91,17 @@ public class PlayerController : MonoBehaviour
         else
         {
             TimeWithoutRotationInput += Time.deltaTime;
+        }
+
+        if (!isOrbiting && TimeWithoutRotationInput >= timeToLockRotation)
+        {
+            SetOrbitingState(true);
+            Debug.Log("Stable trajectory detected. Locking rotation to prograde.");
+        }
+        else if (isOrbiting && isRotating)
+        {
+            SetOrbitingState(false);
+            Debug.Log("Rotation input detected. Unlocking prograde lock.");
         }
     }
 

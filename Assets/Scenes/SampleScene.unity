@@ -376,6 +376,7 @@ MonoBehaviour:
   thrustForce: 7
   rotationSpeed: 400
   progradeRotationSpeed: 10
+  timeToLockRotation: 5
   boostMultiplier: 5
   boostFuelConsumptionMultiplier: 10
   maxFuel: 100
@@ -509,7 +510,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   revolutionsToWin: 2
-  timeToLockRotation: 2.5
   revolutionText: {fileID: 681291660}
 --- !u!61 &563703415
 BoxCollider2D:
