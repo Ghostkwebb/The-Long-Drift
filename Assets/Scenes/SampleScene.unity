@@ -381,7 +381,7 @@ MonoBehaviour:
   boostFuelConsumptionMultiplier: 10
   maxFuel: 100
   fuelConsumptionRate: 1
-  startOrbitPeriapsis: 23
+  startOrbitPeriapsis: 10
   startOrbitApoapsis: 30
   startOrbitClockwise: 0
 --- !u!50 &563703410
@@ -633,8 +633,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.05020921
-        value: 0.050314933
+        time: 0.09110658
+        value: 0.111849785
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -974,7 +974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: mass
-      value: 30000
+      value: 50000
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isCheckpoint
@@ -2132,7 +2132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: mass
-      value: 30000
+      value: 50000
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isCheckpoint
@@ -2316,7 +2316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: mass
-      value: 30000
+      value: 50000
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isCheckpoint
@@ -2386,7 +2386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: mass
-      value: 30000
+      value: 50000
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isCheckpoint
