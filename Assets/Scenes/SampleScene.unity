@@ -841,6 +841,7 @@ MonoBehaviour:
   startOrbitPeriapsis: 20
   startOrbitApoapsis: 50
   startOrbitClockwise: 0
+  thrusterAnimator: {fileID: 1318322098}
 --- !u!50 &563703410
 Rigidbody2D:
   serializedVersion: 5
@@ -917,7 +918,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.5, y: 0.8125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -1009,8 +1010,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 1.5, y: 0.8125}
+    newSize: {x: 1.5, y: 0.8125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -2440,6 +2441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1318322095}
   - component: {fileID: 1318322096}
+  - component: {fileID: 1318322098}
   m_Layer: 0
   m_Name: ThrusterFire
   m_TagString: Untagged
@@ -2456,7 +2458,7 @@ Transform:
   m_GameObject: {fileID: 1318322094}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2511,12 +2513,35 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.5, y: 0.8125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1318322098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318322094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2dc2cc9e2034dc2841add92e6edc26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrustFrames:
+  - {fileID: 1505896292610601677, guid: 082a337cd76eeae429a85947a40fe83a, type: 3}
+  - {fileID: -6972606277920029494, guid: 082a337cd76eeae429a85947a40fe83a, type: 3}
+  - {fileID: -7147069313694496400, guid: 082a337cd76eeae429a85947a40fe83a, type: 3}
+  - {fileID: 5101681044321321197, guid: 082a337cd76eeae429a85947a40fe83a, type: 3}
+  boostFrames:
+  - {fileID: -1157367792519845776, guid: 082a337cd76eeae429a85947a40fe83a, type: 3}
+  - {fileID: 7637343892286418820, guid: 082a337cd76eeae429a85947a40fe83a, type: 3}
+  - {fileID: 8411443749173575552, guid: 082a337cd76eeae429a85947a40fe83a, type: 3}
+  - {fileID: 2281415964059188586, guid: 082a337cd76eeae429a85947a40fe83a, type: 3}
+  animationFramerate: 12
 --- !u!1 &1355535189
 GameObject:
   m_ObjectHideFlags: 0

@@ -51,15 +51,18 @@ public class PlayerController : MonoBehaviour
     private PlayerInputActions playerInputActions;
     private float rotationInput;
     private bool hasSpawned = false;
+    private readonly int thrustStateAnimHash = Animator.StringToHash("ThrustState");
+
+    [Header("Component References")]
+    [Tooltip("The ThrusterAnimator script on the ThrusterFire child object.")]
+    [SerializeField] private ThrusterAnimator thrusterAnimator;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         playerInputActions = new PlayerInputActions();
-
         playerInputActions.Player.Rotate.performed += OnRotate;
         playerInputActions.Player.Rotate.canceled += OnRotate;
-
         CurrentFuel = maxFuel;
     }
 
@@ -104,6 +107,29 @@ public class PlayerController : MonoBehaviour
         {
             SetOrbitingState(false);
             Debug.Log("Rotation input detected. Unlocking prograde lock.");
+        }
+
+        HandleAnimation();
+    }
+
+    private void HandleAnimation()
+    {
+        if (thrusterAnimator == null) return;
+
+        bool isBoosting = playerInputActions.Player.Boost.IsPressed();
+        bool isThrusting = playerInputActions.Player.Thrust.IsPressed();
+
+        if (isBoosting && CurrentFuel > 0)
+        {
+            thrusterAnimator.SetState(2); // Tell the script to play the Boost animation
+        }
+        else if (isThrusting && CurrentFuel > 0)
+        {
+            thrusterAnimator.SetState(1); // Tell the script to play the Thrust animation
+        }
+        else
+        {
+            thrusterAnimator.SetState(0); // Tell the script to go Idle
         }
     }
 
