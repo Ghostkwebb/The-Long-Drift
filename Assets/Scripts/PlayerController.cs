@@ -5,6 +5,16 @@ using System.Linq;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Audio")]
+    [Tooltip("The AudioSource for the continuous engine idle sound.")]
+    [SerializeField] private AudioSource idleAudioSource;
+    [Tooltip("The AudioSource for the active thrust sound.")]
+    [SerializeField] private AudioSource thrustAudioSource;
+    [SerializeField] private AudioClip idleLoopClip;
+    [SerializeField] private AudioClip thrustLoopClip;
+    [SerializeField] private float thrustPitch = 1f;
+    [SerializeField] private float boostPitch = 1.5f;
+
     [Header("Ship Parameters")]
     [SerializeField] private float thrustForce = 10f;
     [SerializeField] private float rotationSpeed = 200f;
@@ -66,6 +76,26 @@ public class PlayerController : MonoBehaviour
         CurrentFuel = maxFuel;
     }
 
+    private void Start()
+    {
+        // --- THIS IS THE NEW AUDIO SETUP ---
+        // Prepare the idle audio source.
+        if (idleAudioSource != null)
+        {
+            idleAudioSource.clip = idleLoopClip;
+            idleAudioSource.loop = true;
+            idleAudioSource.Play(); // The idle sound is always on by default.
+        }
+        // Prepare the thrust audio source.
+        if (thrustAudioSource != null)
+        {
+            thrustAudioSource.clip = thrustLoopClip;
+            thrustAudioSource.loop = true;
+            thrustAudioSource.Stop(); // The thrust sound is off by default.
+        }
+
+    }
+
     public void RefillFuel()
     {
         Debug.Log("Fuel refilled!");
@@ -110,7 +140,42 @@ public class PlayerController : MonoBehaviour
         }
 
         HandleAnimation();
+        HandleEngineAudio();
     }
+
+    private void HandleEngineAudio()
+    {
+        if (idleAudioSource == null || thrustAudioSource == null) return;
+
+        bool isThrusting = playerInputActions.Player.Thrust.IsPressed() && CurrentFuel > 0;
+        bool isBoosting = playerInputActions.Player.Boost.IsPressed() && CurrentFuel > 0;
+
+        if (isThrusting || isBoosting)
+        {
+            if (idleAudioSource.isPlaying)
+            {
+                idleAudioSource.Stop();
+            }
+            if (!thrustAudioSource.isPlaying)
+            {
+                thrustAudioSource.Play();
+            }
+
+            thrustAudioSource.pitch = isBoosting ? boostPitch : thrustPitch;
+        }
+        else
+        {
+            if (thrustAudioSource.isPlaying)
+            {
+                thrustAudioSource.Stop();
+            }
+            if (!idleAudioSource.isPlaying)
+            {
+                idleAudioSource.Play();
+            }
+        }
+    }
+
 
     private void HandleAnimation()
     {
