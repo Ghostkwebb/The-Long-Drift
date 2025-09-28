@@ -1246,8 +1246,8 @@ MonoBehaviour:
   boostFuelConsumptionMultiplier: 20
   maxFuel: 100
   fuelConsumptionRate: 1
-  startOrbitPeriapsis: 40
-  startOrbitApoapsis: 40
+  startOrbitPeriapsis: 20
+  startOrbitApoapsis: 50
   startOrbitClockwise: 1
   thrusterAnimator: {fileID: 1318322098}
 --- !u!50 &563703410
