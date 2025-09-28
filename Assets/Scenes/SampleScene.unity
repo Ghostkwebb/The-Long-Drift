@@ -839,7 +839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isCheckpoint
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isStartingPlanet
@@ -2111,7 +2111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isStartingPlanet
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5720906249009237416, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: m_Name
@@ -2995,7 +2995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isStartingPlanet
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5720906249009237416, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: m_Name
@@ -4261,6 +4261,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4288663338848615756, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
   m_PrefabInstance: {fileID: 4447153875359827806}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1828343952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5720906249009237416, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
+  m_PrefabInstance: {fileID: 4447153875359827806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1828343957
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828343952}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c6281dba21afde945bb8c3ab3d070542, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1831242669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4796,16 +4823,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5103831065698980699, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: isStartingPlanet
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5720906249009237416, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
       propertyPath: m_Name
       value: Planet_1
       objectReference: {fileID: 0}
+    - target: {fileID: 8335802634957751492, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0139608
+      objectReference: {fileID: 0}
+    - target: {fileID: 8335802634957751492, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2009227155472408943, guid: 8e2551c1c0fd7ab40af0ebdb4f2ac2a7, type: 3}
+    - target: {fileID: 8335802634957751492, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5720906249009237416, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1828343957}
   m_SourcePrefab: {fileID: 100100000, guid: ce97638cd6167224cbeb835842c3b182, type: 3}
 --- !u!1001 &6613194462728240145
 PrefabInstance:
