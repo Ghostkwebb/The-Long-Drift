@@ -347,7 +347,7 @@ public class PlayerController : MonoBehaviour
 
         if (GameManager.Instance != null)
         {
-            GameManager.Instance.RespawnPlayer(1.0f);
+            GameManager.Instance.TriggerLoseState();
         }
 
         gameObject.SetActive(false);

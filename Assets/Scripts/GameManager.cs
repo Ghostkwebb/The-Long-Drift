@@ -5,6 +5,13 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
+    public enum GameState { Playing, Paused, Won, Lost }
+    public GameState CurrentState { get; private set; }
+
+    [Header("UI Panels")]
+    private GameObject winPanel;
+    private GameObject losePanel;
+
     [Header("Fade Transition")]
     private CanvasGroup fadeCanvasGroup;
     [Tooltip("How long it takes to fade TO black.")]
@@ -37,19 +44,52 @@ public class GameManager : MonoBehaviour
         playerInputActions.Player.Reset.performed += ResetLevel;
 
         SceneManager.sceneLoaded += OnSceneLoaded;
+
+        if (winPanel != null) winPanel.SetActive(false);
+        if (losePanel != null) losePanel.SetActive(false);
+    }
+
+    public void RegisterLevelUI(GameObject winPanel, GameObject losePanel)
+    {
+        this.winPanel = winPanel;
+        this.losePanel = losePanel;
+        // Ensure they are off when registered.
+        if (this.winPanel != null) this.winPanel.SetActive(false);
+        if (this.losePanel != null) this.losePanel.SetActive(false);
+    }
+
+    private void Start()
+    {
+        // When a level starts, we are in the "Playing" state.
+        CurrentState = GameState.Playing;
+        EnablePlayerInput();
+    }
+
+    public void TriggerWinState()
+    {
+        if (CurrentState != GameState.Playing) return;
+        CurrentState = GameState.Won;
+        Debug.Log("Game State: WON");
+        Time.timeScale = 0f;
+        if (winPanel != null) winPanel.SetActive(true);
+        else Debug.LogError("Win Panel is not registered to GameManager!");
+    }
+
+    public void TriggerLoseState()
+    {
+        if (CurrentState != GameState.Playing) return;
+        CurrentState = GameState.Lost;
+        Debug.Log("Game State: LOST");
+        if (losePanel != null) losePanel.SetActive(true);
+        else Debug.LogError("Lose Panel is not registered to GameManager!");
+
+        RespawnPlayer(2.0f);
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        CurrentState = GameState.Playing;
         fadeCanvasGroup = FindObjectOfType<CanvasGroup>();
-        if (fadeCanvasGroup != null)
-        {
-            fadeCanvasGroup.alpha = currentAlpha;
-        }
-        else
-        {
-            Debug.LogError("No CanvasGroup found in the new scene. Fading will not work.");
-        }
     }
 
     public void LoadSceneWithFade(string sceneName)
@@ -118,10 +158,10 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator RespawnCoroutine(float delay)
     {
-        Debug.Log($"Respawn sequence started. Waiting for {delay} real-world seconds.");
         yield return new WaitForSecondsRealtime(delay);
 
-        Debug.Log("Respawn timer finished. Reloading scene...");
+        Time.timeScale = 1f;
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -137,6 +177,19 @@ public class GameManager : MonoBehaviour
         checkpointRespawnPosition = respawnPosition;
         checkpointRespawnVelocity = respawnVelocity;
     }
+
+    public void GoToMainMenu()
+    {
+        Time.timeScale = 1f; // Always unpause before changing scenes
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.CrossfadeMusic(SoundManager.Instance.mainMenuMusic, 1.0f);
+        }
+        LoadSceneWithFade("MainMenu"); // Use your scene name
+    }
+
+    private void EnablePlayerInput() => playerInputActions.Player.Enable();
+    private void DisablePlayerInput() => playerInputActions.Player.Disable();
 
     public Vector2 GetCheckpointPosition() => checkpointRespawnPosition;
     public Vector2 GetCheckpointVelocity() => checkpointRespawnVelocity;

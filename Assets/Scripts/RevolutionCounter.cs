@@ -119,6 +119,7 @@ public class RevolutionCounter : MonoBehaviour
             if (source.isDestination && !winConditionMet)
             {
                 winConditionMet = true;
+                GameManager.Instance.TriggerWinState();
                 Debug.Log("WIN CONDITION MET!");
             }
         }
