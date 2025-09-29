@@ -1,0 +1,3237 @@
+fileFormatVersion: 2
+guid: 9653f4976316ae448a20d5e279fec2a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 46769824697168245
+    second: moon9_0
+  - first:
+      213: -6213237325867074546
+    second: moon9_1
+  - first:
+      213: 2360942748059624983
+    second: moon9_2
+  - first:
+      213: 8251762987910913138
+    second: moon9_3
+  - first:
+      213: 8404837041442158088
+    second: moon9_4
+  - first:
+      213: 25227785957823687
+    second: moon9_5
+  - first:
+      213: -2404670233832582688
+    second: moon9_6
+  - first:
+      213: 9034596203313258020
+    second: moon9_7
+  - first:
+      213: 6865451431513174174
+    second: moon9_8
+  - first:
+      213: 9203734469280907090
+    second: moon9_9
+  - first:
+      213: 8409458783417147794
+    second: moon9_10
+  - first:
+      213: -8405214682741200421
+    second: moon9_11
+  - first:
+      213: -5539675275278123858
+    second: moon9_12
+  - first:
+      213: -7441369120128336953
+    second: moon9_13
+  - first:
+      213: -4419847593948547214
+    second: moon9_14
+  - first:
+      213: -7616909091621615262
+    second: moon9_15
+  - first:
+      213: 2453440187846174836
+    second: moon9_16
+  - first:
+      213: -7543785068390407740
+    second: moon9_17
+  - first:
+      213: -2771507261333784561
+    second: moon9_18
+  - first:
+      213: -4685187943602690907
+    second: moon9_19
+  - first:
+      213: 1227094754904191568
+    second: moon9_20
+  - first:
+      213: -2726413474301308592
+    second: moon9_21
+  - first:
+      213: -4119502857859783305
+    second: moon9_22
+  - first:
+      213: 6985997421276555110
+    second: moon9_23
+  - first:
+      213: 6963333442856472574
+    second: moon9_24
+  - first:
+      213: 3799620818551154288
+    second: moon9_25
+  - first:
+      213: 129474631941503716
+    second: moon9_26
+  - first:
+      213: -5604508516962565136
+    second: moon9_27
+  - first:
+      213: 5679221714883084794
+    second: moon9_28
+  - first:
+      213: -7327981324347416819
+    second: moon9_29
+  - first:
+      213: -7711602542742548072
+    second: moon9_30
+  - first:
+      213: -2203688441004630890
+    second: moon9_31
+  - first:
+      213: -685060410181334084
+    second: moon9_32
+  - first:
+      213: -8581494538311805656
+    second: moon9_33
+  - first:
+      213: -3664815829215888772
+    second: moon9_34
+  - first:
+      213: 5996926432857751883
+    second: moon9_35
+  - first:
+      213: 780785970237259784
+    second: moon9_36
+  - first:
+      213: 1514669513782058071
+    second: moon9_37
+  - first:
+      213: 7240291222204751743
+    second: moon9_38
+  - first:
+      213: 4163568480455901174
+    second: moon9_39
+  - first:
+      213: 6379097183216104871
+    second: moon9_40
+  - first:
+      213: -2248230816956298442
+    second: moon9_41
+  - first:
+      213: -5484821786440246944
+    second: moon9_42
+  - first:
+      213: -1947686196157305902
+    second: moon9_43
+  - first:
+      213: -4571084140392944255
+    second: moon9_44
+  - first:
+      213: 2768540842939884129
+    second: moon9_45
+  - first:
+      213: 3821698773153367410
+    second: moon9_46
+  - first:
+      213: -5066419578327546481
+    second: moon9_47
+  - first:
+      213: -4628941866877765854
+    second: moon9_48
+  - first:
+      213: -7679811502132626271
+    second: moon9_49
+  - first:
+      213: 9127682236700206219
+    second: moon9_50
+  - first:
+      213: 3317165679183571171
+    second: moon9_51
+  - first:
+      213: 235414907996537650
+    second: moon9_52
+  - first:
+      213: -719335242925226878
+    second: moon9_53
+  - first:
+      213: 1174370993973320395
+    second: moon9_54
+  - first:
+      213: 259035331203232100
+    second: moon9_55
+  - first:
+      213: 4827141612396125300
+    second: moon9_56
+  - first:
+      213: 1545053710725112752
+    second: moon9_57
+  - first:
+      213: 8727141863338001082
+    second: moon9_58
+  - first:
+      213: -1373500029323490491
+    second: moon9_59
+  - first:
+      213: -366373526360618079
+    second: moon9_60
+  - first:
+      213: -6904405320569488413
+    second: moon9_61
+  - first:
+      213: -2748413469926060039
+    second: moon9_62
+  - first:
+      213: -7707973956696643968
+    second: moon9_63
+  - first:
+      213: -2363927193209776231
+    second: moon9_64
+  - first:
+      213: -6844645886459091444
+    second: moon9_65
+  - first:
+      213: 2534407552679185937
+    second: moon9_66
+  - first:
+      213: 6450514197985331659
+    second: moon9_67
+  - first:
+      213: 5359951070004159400
+    second: moon9_68
+  - first:
+      213: -1897567966135844499
+    second: moon9_69
+  - first:
+      213: -7599649918147073638
+    second: moon9_70
+  - first:
+      213: -1309309585862585984
+    second: moon9_71
+  - first:
+      213: 6556238309198321103
+    second: moon9_72
+  - first:
+      213: -864244365592407970
+    second: moon9_73
+  - first:
+      213: -5837354276771294828
+    second: moon9_74
+  - first:
+      213: 3244572372257030735
+    second: moon9_75
+  - first:
+      213: 2121771976642213961
+    second: moon9_76
+  - first:
+      213: -7158779766923671210
+    second: moon9_77
+  - first:
+      213: 8290033365001629829
+    second: moon9_78
+  - first:
+      213: -8104223185620722948
+    second: moon9_79
+  - first:
+      213: -1991075138630594017
+    second: moon9_80
+  - first:
+      213: 4695225877256873124
+    second: moon9_81
+  - first:
+      213: -2304818858157137792
+    second: moon9_82
+  - first:
+      213: 61205987664505580
+    second: moon9_83
+  - first:
+      213: -1854378456781314956
+    second: moon9_84
+  - first:
+      213: 764039807640399393
+    second: moon9_85
+  - first:
+      213: 7137115397730139064
+    second: moon9_86
+  - first:
+      213: 8393890876122142726
+    second: moon9_87
+  - first:
+      213: -4226430419022357552
+    second: moon9_88
+  - first:
+      213: -5620499735785819469
+    second: moon9_89
+  - first:
+      213: 1008838510623241630
+    second: moon9_90
+  - first:
+      213: -8187593420794515588
+    second: moon9_91
+  - first:
+      213: -5419430464835293245
+    second: moon9_92
+  - first:
+      213: -107165729624777834
+    second: moon9_93
+  - first:
+      213: 7727577712962987135
+    second: moon9_94
+  - first:
+      213: -350197235417364072
+    second: moon9_95
+  - first:
+      213: -7029520334636232657
+    second: moon9_96
+  - first:
+      213: 1663504235875434510
+    second: moon9_97
+  - first:
+      213: 7180246408289175723
+    second: moon9_98
+  - first:
+      213: 2622280004299992440
+    second: moon9_99
+  - first:
+      213: -7693721492850017344
+    second: moon9_100
+  - first:
+      213: 453493262201507255
+    second: moon9_101
+  - first:
+      213: -3045342368260154489
+    second: moon9_102
+  - first:
+      213: -7042919396632131053
+    second: moon9_103
+  - first:
+      213: -6166081236420295002
+    second: moon9_104
+  - first:
+      213: -7695601594730148470
+    second: moon9_105
+  - first:
+      213: -7068130700830347754
+    second: moon9_106
+  - first:
+      213: 8806362034238063792
+    second: moon9_107
+  - first:
+      213: -3772576329493047128
+    second: moon9_108
+  - first:
+      213: -8896803257486247422
+    second: moon9_109
+  - first:
+      213: 9164996188710057158
+    second: moon9_110
+  - first:
+      213: 352198793965452334
+    second: moon9_111
+  - first:
+      213: 3607331222636464390
+    second: moon9_112
+  - first:
+      213: -5229190015780643823
+    second: moon9_113
+  - first:
+      213: -8516548318448062055
+    second: moon9_114
+  - first:
+      213: -8633688326251496771
+    second: moon9_115
+  - first:
+      213: 5699763172134993920
+    second: moon9_116
+  - first:
+      213: 2753155041409320229
+    second: moon9_117
+  - first:
+      213: 3600601106555438853
+    second: moon9_118
+  - first:
+      213: -684577132818623239
+    second: moon9_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: moon9_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571384368e826a000800000000000000
+      internalID: 46769824697168245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cbe7e329526c9a0800000000000000
+      internalID: -6213237325867074546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716e029abe0c3c020800000000000000
+      internalID: 2360942748059624983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c5521c7b6248270800000000000000
+      internalID: 8251762987910913138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806743a22caf3a470800000000000000
+      internalID: 8404837041442158088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c45c74a980a95000800000000000000
+      internalID: 25227785957823687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1147ea925e0aed0800000000000000
+      internalID: -2404670233832582688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e549b2165516d70800000000000000
+      internalID: 9034596203313258020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e903a06c3bbf64f50800000000000000
+      internalID: 6865451431513174174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fb1808cbb3abf70800000000000000
+      internalID: 9203734469280907090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2912ed2553664b470800000000000000
+      internalID: 8409458783417147794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9205e57cdaa5b80800000000000000
+      internalID: -8405214682741200421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac780600be1f13b0800000000000000
+      internalID: -5539675275278123858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb70381632fab890800000000000000
+      internalID: -7441369120128336953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277f459d70c89a2c0800000000000000
+      internalID: -4419847593948547214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269437b898d4b4690800000000000000
+      internalID: -7616909091621615262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4782d3a1ade5c0220800000000000000
+      internalID: 2453440187846174836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_17
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1a1b0f2771f4790800000000000000
+      internalID: -7543785068390407740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08b8c374d0a989d0800000000000000
+      internalID: -2771507261333784561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_19
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a46e93736edafeb0800000000000000
+      internalID: -4685187943602690907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0523fcb9d24870110800000000000000
+      internalID: 1227094754904191568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_21
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0519e69e365d92ad0800000000000000
+      internalID: -2726413474301308592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_22
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775af021af594d6c0800000000000000
+      internalID: -4119502857859783305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_23
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667ebf824af33f060800000000000000
+      internalID: 6985997421276555110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_24
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effce0a7fdab2a060800000000000000
+      internalID: 6963333442856472574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_25
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076abe2d007fab430800000000000000
+      internalID: 3799620818551154288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_26
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea3c44ed7cfbc100800000000000000
+      internalID: 129474631941503716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_27
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f38bc1a239c832b0800000000000000
+      internalID: -5604508516962565136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_28
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af18a445f06a0de40800000000000000
+      internalID: 5679221714883084794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_29
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f53919fc7cd4a90800000000000000
+      internalID: -7327981324347416819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_30
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891d4de5852eaf490800000000000000
+      internalID: -7711602542742548072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_31
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cd84ed90dea61e0800000000000000
+      internalID: -2203688441004630890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_32
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb4571cf2d2e76f0800000000000000
+      internalID: -685060410181334084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_33
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82558f12f2868e880800000000000000
+      internalID: -8581494538311805656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_34
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7abb5c9b65f32dc0800000000000000
+      internalID: -3664815829215888772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_35
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4103ae41dc593350800000000000000
+      internalID: 5996926432857751883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_36
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800c99104b8e5da00800000000000000
+      internalID: 780785970237259784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_37
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cd711d5ef250510800000000000000
+      internalID: 1514669513782058071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_38
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f94e1818eaa7460800000000000000
+      internalID: 7240291222204751743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_39
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff36933977f7c930800000000000000
+      internalID: 4163568480455901174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_40
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a57a49171b178850800000000000000
+      internalID: 6379097183216104871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_41
+      rect:
+        serializedVersion: 2
+        x: 4100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bcb3ecbfdacc0e0800000000000000
+      internalID: -2248230816956298442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_42
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069d7e225aff1e3b0800000000000000
+      internalID: -5484821786440246944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_43
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbac1059bd68f4e0800000000000000
+      internalID: -1947686196157305902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_44
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18de475613f3090c0800000000000000
+      internalID: -4571084140392944255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_45
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162a7917a35db6620800000000000000
+      internalID: 2768540842939884129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_46
+      rect:
+        serializedVersion: 2
+        x: 4600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2754a5439c6690530800000000000000
+      internalID: 3821698773153367410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_47
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85c3be8c3670b9b0800000000000000
+      internalID: -5066419578327546481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_48
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22731d2b5e1b2cfb0800000000000000
+      internalID: -4628941866877765854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_49
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acfc61d024db6590800000000000000
+      internalID: -7679811502132626271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_50
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84a82d32aa0cae70800000000000000
+      internalID: 9127682236700206219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_51
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8aad03c90f80e20800000000000000
+      internalID: 3317165679183571171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_52
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23307fd8c9c544300800000000000000
+      internalID: 235414907996537650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_53
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284c50368686406f0800000000000000
+      internalID: -719335242925226878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_54
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca5d4a62343c4010800000000000000
+      internalID: 1174370993973320395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_55
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461f4a4e247489300800000000000000
+      internalID: 259035331203232100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_56
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c906f98b37df240800000000000000
+      internalID: 4827141612396125300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_57
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b36ba2f922217510800000000000000
+      internalID: 1545053710725112752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_58
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2c3bc49490d1970800000000000000
+      internalID: 8727141863338001082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_59
+      rect:
+        serializedVersion: 2
+        x: 5900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b4f2d100950fce0800000000000000
+      internalID: -1373500029323490491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_60
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab0b2a08316aeaf0800000000000000
+      internalID: -366373526360618079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_61
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb732a21ff9e20a0800000000000000
+      internalID: -6904405320569488413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_62
+      rect:
+        serializedVersion: 2
+        x: 6200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff8825c28cabd9d0800000000000000
+      internalID: -2748413469926060039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_63
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08662256686c70590800000000000000
+      internalID: -7707973956696643968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_64
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99758dd0eb4a13fd0800000000000000
+      internalID: -2363927193209776231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_65
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06644ca4dee201a0800000000000000
+      internalID: -6844645886459091444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_66
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e8285cd360c2320800000000000000
+      internalID: 2534407552679185937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_67
+      rect:
+        serializedVersion: 2
+        x: 6700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9878d9c74d48950800000000000000
+      internalID: 6450514197985331659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_68
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3a215991f526a40800000000000000
+      internalID: 5359951070004159400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_69
+      rect:
+        serializedVersion: 2
+        x: 6900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6100511dfb7aa5e0800000000000000
+      internalID: -1897567966135844499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_70
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9964830aae988690800000000000000
+      internalID: -7599649918147073638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_71
+      rect:
+        serializedVersion: 2
+        x: 7100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08195a16ed564dde0800000000000000
+      internalID: -1309309585862585984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_72
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5d29a71007cfa50800000000000000
+      internalID: 6556238309198321103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_73
+      rect:
+        serializedVersion: 2
+        x: 7300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e505bb514569104f0800000000000000
+      internalID: -864244365592407970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_74
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49190f0863d8dfea0800000000000000
+      internalID: -5837354276771294828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_75
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f424d60d169070d20800000000000000
+      internalID: 3244572372257030735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_76
+      rect:
+        serializedVersion: 2
+        x: 7600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94833220f5c027d10800000000000000
+      internalID: 2121771976642213961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_77
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659c2471bb7e6ac90800000000000000
+      internalID: -7158779766923671210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_78
+      rect:
+        serializedVersion: 2
+        x: 7800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580fe094c6d1c0370800000000000000
+      internalID: 8290033365001629829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_79
+      rect:
+        serializedVersion: 2
+        x: 7900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa979063f3088f80800000000000000
+      internalID: -8104223185620722948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_80
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12dfc8e5b74e54e0800000000000000
+      internalID: -1991075138630594017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_81
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a42e1a1f0bc82140800000000000000
+      internalID: 4695225877256873124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_82
+      rect:
+        serializedVersion: 2
+        x: 8200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0802cefb573a300e0800000000000000
+      internalID: -2304818858157137792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_83
+      rect:
+        serializedVersion: 2
+        x: 8300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaaed0858279d000800000000000000
+      internalID: 61205987664505580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_84
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474a9645e9ce346e0800000000000000
+      internalID: -1854378456781314956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_85
+      rect:
+        serializedVersion: 2
+        x: 8500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ee9a0382a6a9a00800000000000000
+      internalID: 764039807640399393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_86
+      rect:
+        serializedVersion: 2
+        x: 8600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbfca2e3a02c0360800000000000000
+      internalID: 7137115397730139064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_87
+      rect:
+        serializedVersion: 2
+        x: 8700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60817a277471d7470800000000000000
+      internalID: 8393890876122142726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_88
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db544e2de3b855c0800000000000000
+      internalID: -4226430419022357552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_89
+      rect:
+        serializedVersion: 2
+        x: 8900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b23f4cd449fff1b0800000000000000
+      internalID: -5620499735785819469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_90
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95be65c74d100e00800000000000000
+      internalID: 1008838510623241630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_91
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fa73cd923df5e80800000000000000
+      internalID: -8187593420794515588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_92
+      rect:
+        serializedVersion: 2
+        x: 9200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfef82a4b05ac4b0800000000000000
+      internalID: -5419430464835293245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_93
+      rect:
+        serializedVersion: 2
+        x: 9300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b9e913655438ef0800000000000000
+      internalID: -107165729624777834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_94
+      rect:
+        serializedVersion: 2
+        x: 9400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74626bccfedd3b60800000000000000
+      internalID: 7727577712962987135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_95
+      rect:
+        serializedVersion: 2
+        x: 9500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899cf954879d32bf0800000000000000
+      internalID: -350197235417364072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_96
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f205f98ef70227e90800000000000000
+      internalID: -7029520334636232657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_97
+      rect:
+        serializedVersion: 2
+        x: 9700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0086b5f944f51710800000000000000
+      internalID: 1663504235875434510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_98
+      rect:
+        serializedVersion: 2
+        x: 9800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8c9d5d01c55a360800000000000000
+      internalID: 7180246408289175723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_99
+      rect:
+        serializedVersion: 2
+        x: 9900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d29ed35c5346420800000000000000
+      internalID: 2622280004299992440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_100
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbf2e9b0196a3590800000000000000
+      internalID: -7693721492850017344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_101
+      rect:
+        serializedVersion: 2
+        x: 10100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdcd8128b12b4600800000000000000
+      internalID: 453493262201507255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_102
+      rect:
+        serializedVersion: 2
+        x: 10200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b18604045ccb5d0800000000000000
+      internalID: -3045342368260154489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_103
+      rect:
+        serializedVersion: 2
+        x: 10300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a880eaf16824e90800000000000000
+      internalID: -7042919396632131053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_104
+      rect:
+        serializedVersion: 2
+        x: 10400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a687f6e8cdad6aa0800000000000000
+      internalID: -6166081236420295002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_105
+      rect:
+        serializedVersion: 2
+        x: 10500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d0e256f1bb33590800000000000000
+      internalID: -7695601594730148470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_106
+      rect:
+        serializedVersion: 2
+        x: 10600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e69fe7394f8ed90800000000000000
+      internalID: -7068130700830347754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_107
+      rect:
+        serializedVersion: 2
+        x: 10700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b40f3eac9b763a70800000000000000
+      internalID: 8806362034238063792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_108
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a81588f0dd15abc0800000000000000
+      internalID: -3772576329493047128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_109
+      rect:
+        serializedVersion: 2
+        x: 10900
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a7ef81394388480800000000000000
+      internalID: -8896803257486247422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_110
+      rect:
+        serializedVersion: 2
+        x: 11000
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c43fd3b97b903f70800000000000000
+      internalID: 9164996188710057158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_111
+      rect:
+        serializedVersion: 2
+        x: 11100
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cb1a4efe243e400800000000000000
+      internalID: 352198793965452334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_112
+      rect:
+        serializedVersion: 2
+        x: 11200
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6090c6072a0df0230800000000000000
+      internalID: 3607331222636464390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_113
+      rect:
+        serializedVersion: 2
+        x: 11300
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c1066d26f2e67b0800000000000000
+      internalID: -5229190015780643823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_114
+      rect:
+        serializedVersion: 2
+        x: 11400
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991f37e4d642fc980800000000000000
+      internalID: -8516548318448062055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_115
+      rect:
+        serializedVersion: 2
+        x: 11500
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbab754e53afe2880800000000000000
+      internalID: -8633688326251496771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_116
+      rect:
+        serializedVersion: 2
+        x: 11600
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000c5fa0860a91f40800000000000000
+      internalID: 5699763172134993920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_117
+      rect:
+        serializedVersion: 2
+        x: 11700
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52547ce5ceb253620800000000000000
+      internalID: 2753155041409320229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_118
+      rect:
+        serializedVersion: 2
+        x: 11800
+        y: 0
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5078d1e21a7e7f130800000000000000
+      internalID: 3600601106555438853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon9_119
+      rect:
+        serializedVersion: 2
+        x: 11900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f49df889b4ef76f0800000000000000
+      internalID: -684577132818623239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      moon9_0: 46769824697168245
+      moon9_1: -6213237325867074546
+      moon9_10: 8409458783417147794
+      moon9_100: -7693721492850017344
+      moon9_101: 453493262201507255
+      moon9_102: -3045342368260154489
+      moon9_103: -7042919396632131053
+      moon9_104: -6166081236420295002
+      moon9_105: -7695601594730148470
+      moon9_106: -7068130700830347754
+      moon9_107: 8806362034238063792
+      moon9_108: -3772576329493047128
+      moon9_109: -8896803257486247422
+      moon9_11: -8405214682741200421
+      moon9_110: 9164996188710057158
+      moon9_111: 352198793965452334
+      moon9_112: 3607331222636464390
+      moon9_113: -5229190015780643823
+      moon9_114: -8516548318448062055
+      moon9_115: -8633688326251496771
+      moon9_116: 5699763172134993920
+      moon9_117: 2753155041409320229
+      moon9_118: 3600601106555438853
+      moon9_119: -684577132818623239
+      moon9_12: -5539675275278123858
+      moon9_13: -7441369120128336953
+      moon9_14: -4419847593948547214
+      moon9_15: -7616909091621615262
+      moon9_16: 2453440187846174836
+      moon9_17: -7543785068390407740
+      moon9_18: -2771507261333784561
+      moon9_19: -4685187943602690907
+      moon9_2: 2360942748059624983
+      moon9_20: 1227094754904191568
+      moon9_21: -2726413474301308592
+      moon9_22: -4119502857859783305
+      moon9_23: 6985997421276555110
+      moon9_24: 6963333442856472574
+      moon9_25: 3799620818551154288
+      moon9_26: 129474631941503716
+      moon9_27: -5604508516962565136
+      moon9_28: 5679221714883084794
+      moon9_29: -7327981324347416819
+      moon9_3: 8251762987910913138
+      moon9_30: -7711602542742548072
+      moon9_31: -2203688441004630890
+      moon9_32: -685060410181334084
+      moon9_33: -8581494538311805656
+      moon9_34: -3664815829215888772
+      moon9_35: 5996926432857751883
+      moon9_36: 780785970237259784
+      moon9_37: 1514669513782058071
+      moon9_38: 7240291222204751743
+      moon9_39: 4163568480455901174
+      moon9_4: 8404837041442158088
+      moon9_40: 6379097183216104871
+      moon9_41: -2248230816956298442
+      moon9_42: -5484821786440246944
+      moon9_43: -1947686196157305902
+      moon9_44: -4571084140392944255
+      moon9_45: 2768540842939884129
+      moon9_46: 3821698773153367410
+      moon9_47: -5066419578327546481
+      moon9_48: -4628941866877765854
+      moon9_49: -7679811502132626271
+      moon9_5: 25227785957823687
+      moon9_50: 9127682236700206219
+      moon9_51: 3317165679183571171
+      moon9_52: 235414907996537650
+      moon9_53: -719335242925226878
+      moon9_54: 1174370993973320395
+      moon9_55: 259035331203232100
+      moon9_56: 4827141612396125300
+      moon9_57: 1545053710725112752
+      moon9_58: 8727141863338001082
+      moon9_59: -1373500029323490491
+      moon9_6: -2404670233832582688
+      moon9_60: -366373526360618079
+      moon9_61: -6904405320569488413
+      moon9_62: -2748413469926060039
+      moon9_63: -7707973956696643968
+      moon9_64: -2363927193209776231
+      moon9_65: -6844645886459091444
+      moon9_66: 2534407552679185937
+      moon9_67: 6450514197985331659
+      moon9_68: 5359951070004159400
+      moon9_69: -1897567966135844499
+      moon9_7: 9034596203313258020
+      moon9_70: -7599649918147073638
+      moon9_71: -1309309585862585984
+      moon9_72: 6556238309198321103
+      moon9_73: -864244365592407970
+      moon9_74: -5837354276771294828
+      moon9_75: 3244572372257030735
+      moon9_76: 2121771976642213961
+      moon9_77: -7158779766923671210
+      moon9_78: 8290033365001629829
+      moon9_79: -8104223185620722948
+      moon9_8: 6865451431513174174
+      moon9_80: -1991075138630594017
+      moon9_81: 4695225877256873124
+      moon9_82: -2304818858157137792
+      moon9_83: 61205987664505580
+      moon9_84: -1854378456781314956
+      moon9_85: 764039807640399393
+      moon9_86: 7137115397730139064
+      moon9_87: 8393890876122142726
+      moon9_88: -4226430419022357552
+      moon9_89: -5620499735785819469
+      moon9_9: 9203734469280907090
+      moon9_90: 1008838510623241630
+      moon9_91: -8187593420794515588
+      moon9_92: -5419430464835293245
+      moon9_93: -107165729624777834
+      moon9_94: 7727577712962987135
+      moon9_95: -350197235417364072
+      moon9_96: -7029520334636232657
+      moon9_97: 1663504235875434510
+      moon9_98: 7180246408289175723
+      moon9_99: 2622280004299992440
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

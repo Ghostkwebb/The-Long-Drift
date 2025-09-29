@@ -1,0 +1,3564 @@
+fileFormatVersion: 2
+guid: 0d8b074ad21f8954a9fbc0d69aac4197
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6896307190856407779
+    second: moon5_0
+  - first:
+      213: -6413878636428111861
+    second: moon5_1
+  - first:
+      213: -726656240753299546
+    second: moon5_2
+  - first:
+      213: 3601903898297385432
+    second: moon5_3
+  - first:
+      213: 1214614902844528312
+    second: moon5_4
+  - first:
+      213: -3978380617381414851
+    second: moon5_5
+  - first:
+      213: 1364312319367571580
+    second: moon5_6
+  - first:
+      213: 5204386436465105482
+    second: moon5_7
+  - first:
+      213: -763252027204175958
+    second: moon5_8
+  - first:
+      213: -5053129736591912483
+    second: moon5_9
+  - first:
+      213: 8299088779083734191
+    second: moon5_10
+  - first:
+      213: 3381272998880441092
+    second: moon5_11
+  - first:
+      213: 5755184325049479603
+    second: moon5_12
+  - first:
+      213: 8712892605359150558
+    second: moon5_13
+  - first:
+      213: -3482578586772236629
+    second: moon5_14
+  - first:
+      213: 3581598695556646557
+    second: moon5_15
+  - first:
+      213: -694641140239762888
+    second: moon5_16
+  - first:
+      213: -6023725762191497192
+    second: moon5_17
+  - first:
+      213: 7306705401553640232
+    second: moon5_18
+  - first:
+      213: -4285416196283298122
+    second: moon5_19
+  - first:
+      213: -6482928979809440289
+    second: moon5_20
+  - first:
+      213: 5421448474519764771
+    second: moon5_21
+  - first:
+      213: -575756964779314404
+    second: moon5_22
+  - first:
+      213: 621104471481041359
+    second: moon5_23
+  - first:
+      213: -6990910067812474140
+    second: moon5_24
+  - first:
+      213: 6203851590347726193
+    second: moon5_25
+  - first:
+      213: -386208624147706663
+    second: moon5_26
+  - first:
+      213: 7974332276830595574
+    second: moon5_27
+  - first:
+      213: -8691021504680375079
+    second: moon5_28
+  - first:
+      213: -3299086571547153101
+    second: moon5_29
+  - first:
+      213: 5050740476328355257
+    second: moon5_30
+  - first:
+      213: 5172088624065474201
+    second: moon5_31
+  - first:
+      213: 8180805521068579230
+    second: moon5_32
+  - first:
+      213: -9114624908416108799
+    second: moon5_33
+  - first:
+      213: 1595769973807342140
+    second: moon5_34
+  - first:
+      213: 3899484218409224100
+    second: moon5_35
+  - first:
+      213: -3788448727318920077
+    second: moon5_36
+  - first:
+      213: 4782682885325702947
+    second: moon5_37
+  - first:
+      213: -4251615493598768320
+    second: moon5_38
+  - first:
+      213: -8994805204229423346
+    second: moon5_39
+  - first:
+      213: 1392017865617884398
+    second: moon5_40
+  - first:
+      213: 6603240336960952987
+    second: moon5_41
+  - first:
+      213: 4259335665257068215
+    second: moon5_42
+  - first:
+      213: -1901400731126319483
+    second: moon5_43
+  - first:
+      213: -9139130185387175344
+    second: moon5_44
+  - first:
+      213: 1771108364880206588
+    second: moon5_45
+  - first:
+      213: 7031705810589079126
+    second: moon5_46
+  - first:
+      213: -2536275410453006138
+    second: moon5_47
+  - first:
+      213: -7350268053306111144
+    second: moon5_48
+  - first:
+      213: 6890387533937894061
+    second: moon5_49
+  - first:
+      213: -3302783291963706762
+    second: moon5_50
+  - first:
+      213: -9046367193869527403
+    second: moon5_51
+  - first:
+      213: -7949835878502224820
+    second: moon5_52
+  - first:
+      213: 8973802249589218779
+    second: moon5_53
+  - first:
+      213: -8451271701883404884
+    second: moon5_54
+  - first:
+      213: 7304919327811450928
+    second: moon5_55
+  - first:
+      213: 4348538634472731956
+    second: moon5_56
+  - first:
+      213: 8235380845586421508
+    second: moon5_57
+  - first:
+      213: -2678606788978087655
+    second: moon5_58
+  - first:
+      213: -2752110610334881770
+    second: moon5_59
+  - first:
+      213: 8484250819994146924
+    second: moon5_60
+  - first:
+      213: -2454476360854828227
+    second: moon5_61
+  - first:
+      213: 4824533354315561223
+    second: moon5_62
+  - first:
+      213: 8236070154571322151
+    second: moon5_63
+  - first:
+      213: 8289829229969120506
+    second: moon5_64
+  - first:
+      213: -192608914794974211
+    second: moon5_65
+  - first:
+      213: -6283240050557120640
+    second: moon5_66
+  - first:
+      213: -8536319173595152616
+    second: moon5_67
+  - first:
+      213: 3180114721842596785
+    second: moon5_68
+  - first:
+      213: -4468615700005343799
+    second: moon5_69
+  - first:
+      213: -2295032562134078060
+    second: moon5_70
+  - first:
+      213: 7795368012748393275
+    second: moon5_71
+  - first:
+      213: 2289826981662253917
+    second: moon5_72
+  - first:
+      213: -3625479410666817394
+    second: moon5_73
+  - first:
+      213: -9085541437270117641
+    second: moon5_74
+  - first:
+      213: -1317936482062178400
+    second: moon5_75
+  - first:
+      213: -6470802808453764631
+    second: moon5_76
+  - first:
+      213: 1980620829059870050
+    second: moon5_77
+  - first:
+      213: -1870864166884155148
+    second: moon5_78
+  - first:
+      213: 499593124433382750
+    second: moon5_79
+  - first:
+      213: 6503882686484130229
+    second: moon5_80
+  - first:
+      213: 5628704119708563674
+    second: moon5_81
+  - first:
+      213: -1389422721901454218
+    second: moon5_82
+  - first:
+      213: 836670497423570158
+    second: moon5_83
+  - first:
+      213: -2932460730377118770
+    second: moon5_84
+  - first:
+      213: 5674760372860454542
+    second: moon5_85
+  - first:
+      213: 3137449130267729598
+    second: moon5_86
+  - first:
+      213: 3383598777880709611
+    second: moon5_87
+  - first:
+      213: 413361692686026518
+    second: moon5_88
+  - first:
+      213: 3624345887829294517
+    second: moon5_89
+  - first:
+      213: 2991830914558348819
+    second: moon5_90
+  - first:
+      213: 854029583982812440
+    second: moon5_91
+  - first:
+      213: 6972244351070090621
+    second: moon5_92
+  - first:
+      213: -8061784049551793945
+    second: moon5_93
+  - first:
+      213: -196342956055963672
+    second: moon5_94
+  - first:
+      213: -1983469239806279755
+    second: moon5_95
+  - first:
+      213: 745160704020409368
+    second: moon5_96
+  - first:
+      213: -835413764224382948
+    second: moon5_97
+  - first:
+      213: 4833224611371717116
+    second: moon5_98
+  - first:
+      213: -3280793929974020369
+    second: moon5_99
+  - first:
+      213: -1064600032861610520
+    second: moon5_100
+  - first:
+      213: 6942138229400527020
+    second: moon5_101
+  - first:
+      213: -3473186809241477513
+    second: moon5_102
+  - first:
+      213: 3208958966195304085
+    second: moon5_103
+  - first:
+      213: -2190910716974849969
+    second: moon5_104
+  - first:
+      213: -5438039337598895109
+    second: moon5_105
+  - first:
+      213: -1372849011766986574
+    second: moon5_106
+  - first:
+      213: -4205768167962038027
+    second: moon5_107
+  - first:
+      213: 2982232665356885081
+    second: moon5_108
+  - first:
+      213: -7291620475248836682
+    second: moon5_109
+  - first:
+      213: 2373407921980371248
+    second: moon5_110
+  - first:
+      213: -6116158449705241378
+    second: moon5_111
+  - first:
+      213: -1125715147137136257
+    second: moon5_112
+  - first:
+      213: 1226077649951530330
+    second: moon5_113
+  - first:
+      213: 4643013332754043278
+    second: moon5_114
+  - first:
+      213: 3604265812712028888
+    second: moon5_115
+  - first:
+      213: 3238598353522960371
+    second: moon5_116
+  - first:
+      213: 7120063580151068289
+    second: moon5_117
+  - first:
+      213: -8727678083267607554
+    second: moon5_118
+  - first:
+      213: 6159347507429882453
+    second: moon5_119
+  - first:
+      213: 4487782183181486011
+    second: moon5_120
+  - first:
+      213: 9192421104418341660
+    second: moon5_121
+  - first:
+      213: 2671403287843193204
+    second: moon5_122
+  - first:
+      213: -4336652862065521754
+    second: moon5_123
+  - first:
+      213: 5874397004989909190
+    second: moon5_124
+  - first:
+      213: 4326188993868017096
+    second: moon5_125
+  - first:
+      213: 5878527470214925228
+    second: moon5_126
+  - first:
+      213: -4971866761028161571
+    second: moon5_127
+  - first:
+      213: -1606980414053619872
+    second: moon5_128
+  - first:
+      213: 7082434078171280206
+    second: moon5_129
+  - first:
+      213: -3030691237928803083
+    second: moon5_130
+  - first:
+      213: -3182034579598332657
+    second: moon5_131
+  - first:
+      213: -2682647595033692527
+    second: moon5_132
+  - first:
+      213: 3265155025838094534
+    second: moon5_133
+  - first:
+      213: -8938025981481074597
+    second: moon5_134
+  - first:
+      213: -7465283297946663163
+    second: moon5_135
+  - first:
+      213: 6133673955017655726
+    second: moon5_136
+  - first:
+      213: -6489327523073304140
+    second: moon5_137
+  - first:
+      213: -5113536053039955742
+    second: moon5_138
+  - first:
+      213: -4377339721974941857
+    second: moon5_139
+  - first:
+      213: 1226555788858134477
+    second: moon5_140
+  - first:
+      213: -6214743219996660721
+    second: moon5_141
+  - first:
+      213: 1117041016062299920
+    second: moon5_142
+  - first:
+      213: -244282691384212141
+    second: moon5_143
+  - first:
+      213: 661566103533663512
+    second: moon5_144
+  - first:
+      213: 1819625249624023206
+    second: moon5_145
+  - first:
+      213: -4362970739712046034
+    second: moon5_146
+  - first:
+      213: 1126255646637394002
+    second: moon5_147
+  - first:
+      213: -8481346711292961551
+    second: moon5_148
+  - first:
+      213: -307316190711982084
+    second: moon5_149
+  - first:
+      213: -2227119843204901742
+    second: moon5_150
+  - first:
+      213: 7123265965139309301
+    second: moon5_151
+  - first:
+      213: 5296235905238490461
+    second: moon5_152
+  - first:
+      213: -1482699399129764838
+    second: moon5_153
+  - first:
+      213: 6370873503892530492
+    second: moon5_154
+  - first:
+      213: 7847303695938120610
+    second: moon5_155
+  - first:
+      213: 3252712898410505046
+    second: moon5_156
+  - first:
+      213: -4210459438367149938
+    second: moon5_157
+  - first:
+      213: -3085703311221735688
+    second: moon5_158
+  - first:
+      213: -322946590694065101
+    second: moon5_159
+  - first:
+      213: -3123234601708645482
+    second: moon5_160
+  - first:
+      213: 1845553998251484567
+    second: moon5_161
+  - first:
+      213: -4523309946249606626
+    second: moon5_162
+  - first:
+      213: -855746335608997826
+    second: moon5_163
+  - first:
+      213: 1593820156934234108
+    second: moon5_164
+  - first:
+      213: -6890846424030543497
+    second: moon5_165
+  - first:
+      213: -3301509047310869789
+    second: moon5_166
+  - first:
+      213: -8761417764998583221
+    second: moon5_167
+  - first:
+      213: 192831068597320006
+    second: moon5_168
+  - first:
+      213: 8246012041406811284
+    second: moon5_169
+  - first:
+      213: 7711867938597939857
+    second: moon5_170
+  - first:
+      213: -3136352255171979649
+    second: moon5_171
+  - first:
+      213: 3080992327211072552
+    second: moon5_172
+  - first:
+      213: -9103739607511699458
+    second: moon5_173
+  - first:
+      213: -5339732965748172289
+    second: moon5_174
+  - first:
+      213: -2098013159530071992
+    second: moon5_175
+  - first:
+      213: 1749664446716583721
+    second: moon5_176
+  - first:
+      213: 6750933341669170566
+    second: moon5_177
+  - first:
+      213: 73167325870708354
+    second: moon5_178
+  - first:
+      213: 8158408174758454299
+    second: moon5_179
+  - first:
+      213: -3737578311727416387
+    second: moon5_180
+  - first:
+      213: 9178775464156839001
+    second: moon5_181
+  - first:
+      213: -8137267391003576517
+    second: moon5_182
+  - first:
+      213: 5133023147674150474
+    second: moon5_183
+  - first:
+      213: 978913937165715532
+    second: moon5_184
+  - first:
+      213: -670604138898451941
+    second: moon5_185
+  - first:
+      213: -761047537172231328
+    second: moon5_186
+  - first:
+      213: -8831079225712543494
+    second: moon5_187
+  - first:
+      213: -4904459620562056200
+    second: moon5_188
+  - first:
+      213: -6764845932186357617
+    second: moon5_189
+  - first:
+      213: -1126286029334769427
+    second: moon5_190
+  - first:
+      213: 8036073303511549205
+    second: moon5_191
+  - first:
+      213: 6663851637975634209
+    second: moon5_192
+  - first:
+      213: 4011925520105634456
+    second: moon5_193
+  - first:
+      213: 7597081442523195495
+    second: moon5_194
+  - first:
+      213: -4180655026607054629
+    second: moon5_195
+  - first:
+      213: -4338968832367098231
+    second: moon5_196
+  - first:
+      213: 1632211860849330703
+    second: moon5_197
+  - first:
+      213: -4141214295387983834
+    second: moon5_198
+  - first:
+      213: -4563708811635664848
+    second: moon5_199
+  - first:
+      213: 3240546826737330477
+    second: moon5_200
+  - first:
+      213: -8237981662605662594
+    second: moon5_201
+  - first:
+      213: 1223852140889683623
+    second: moon5_202
+  - first:
+      213: 339089969874787105
+    second: moon5_203
+  - first:
+      213: 5150165056449624765
+    second: moon5_204
+  - first:
+      213: 4654782622272612266
+    second: moon5_205
+  - first:
+      213: -8447821043141045927
+    second: moon5_206
+  - first:
+      213: -1388720279015280129
+    second: moon5_207
+  - first:
+      213: -5580133478144831713
+    second: moon5_208
+  - first:
+      213: -421188896404824335
+    second: moon5_209
+  - first:
+      213: 5104695670903507636
+    second: moon5_210
+  - first:
+      213: 771621900881147772
+    second: moon5_211
+  - first:
+      213: 2170647897838720401
+    second: moon5_212
+  - first:
+      213: -7915562929111465110
+    second: moon5_213
+  - first:
+      213: -6473707823625538750
+    second: moon5_214
+  - first:
+      213: 5400409869076236518
+    second: moon5_215
+  - first:
+      213: -8997485581612390788
+    second: moon5_216
+  - first:
+      213: -1675549702877971334
+    second: moon5_217
+  - first:
+      213: -3862120268819023636
+    second: moon5_218
+  - first:
+      213: 3595522546263206366
+    second: moon5_219
+  - first:
+      213: 1764619123509415241
+    second: moon5_220
+  - first:
+      213: 2926029391267871632
+    second: moon5_221
+  - first:
+      213: -3355422829321088758
+    second: moon5_222
+  - first:
+      213: 8413593186037883069
+    second: moon5_223
+  - first:
+      213: 4184690041389128410
+    second: moon5_224
+  - first:
+      213: 1470526735010318469
+    second: moon5_225
+  - first:
+      213: -6684290365855071767
+    second: moon5_226
+  - first:
+      213: -389209915189871389
+    second: moon5_227
+  - first:
+      213: -7414668522129572770
+    second: moon5_228
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: moon5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ead7f41ada94bf50800000000000000
+      internalID: 6896307190856407779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b005c33cc535df6a0800000000000000
+      internalID: -6413878636428111861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af2410cff56ae5f0800000000000000
+      internalID: -726656240753299546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d14c1503888cf130800000000000000
+      internalID: 3601903898297385432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b691fe91dd2bd010800000000000000
+      internalID: 1214614902844528312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d387ea728e3f9c8c0800000000000000
+      internalID: -3978380617381414851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78e79673d20fe210800000000000000
+      internalID: 1364312319367571580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a1d53d3e1b93840800000000000000
+      internalID: 5204386436465105482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7f56c33526865f0800000000000000
+      internalID: -763252027204175958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1d976f64dafd9b0800000000000000
+      internalID: -5053129736591912483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac57bc26494c2370800000000000000
+      internalID: 8299088779083734191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40373e2b0e1bcee20800000000000000
+      internalID: 3381272998880441092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1787fb6a58edf40800000000000000
+      internalID: 5755184325049479603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed55f8469a96ae870800000000000000
+      internalID: 8712892605359150558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba61f011a356bafc0800000000000000
+      internalID: -3482578586772236629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9608a8990564b130800000000000000
+      internalID: 3581598695556646557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83af2a530932c56f0800000000000000
+      internalID: -694641140239762888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_17
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818e438955d676ca0800000000000000
+      internalID: -6023725762191497192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b5802a9d1a66560800000000000000
+      internalID: 7306705401553640232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_19
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be04d1bca42784c0800000000000000
+      internalID: -4285416196283298122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd6f5ed0720806a0800000000000000
+      internalID: -6482928979809440289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_21
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f75dbd9aadc3b40800000000000000
+      internalID: 5421448474519764771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_22
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c133f5d47108208f0800000000000000
+      internalID: -575756964779314404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_23
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1c80fd93b9e9800800000000000000
+      internalID: 621104471481041359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_24
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2e55f255c4bfe90800000000000000
+      internalID: -6990910067812474140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_25
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d1be9e622881650800000000000000
+      internalID: 6203851590347726193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_26
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dccb747d49e3aaf0800000000000000
+      internalID: -386208624147706663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_27
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f96b69b4f48aae60800000000000000
+      internalID: 7974332276830595574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_28
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcce3e0df9436780800000000000000
+      internalID: -8691021504680375079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_29
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33daba31e3a4732d0800000000000000
+      internalID: -3299086571547153101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_30
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b52d3804b5d71640800000000000000
+      internalID: 5050740476328355257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_31
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ee2406333f6c740800000000000000
+      internalID: 5172088624065474201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_32
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99d8d3174f088170800000000000000
+      internalID: 8180805521068579230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_33
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1073ee8efe8528180800000000000000
+      internalID: -9114624908416108799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_34
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3265002650552610800000000000000
+      internalID: 1595769973807342140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_35
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7068d7c30cd1630800000000000000
+      internalID: 3899484218409224100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_36
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374006e54f9bc6bc0800000000000000
+      internalID: -3788448727318920077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_37
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327cd259eb08f5240800000000000000
+      internalID: 4782682885325702947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_38
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0439f7e0c3a3ff4c0800000000000000
+      internalID: -4251615493598768320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_39
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ff112c2580c2380800000000000000
+      internalID: -8994805204229423346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_40
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4c621afd0715310800000000000000
+      internalID: 1392017865617884398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_41
+      rect:
+        serializedVersion: 2
+        x: 4100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a961bd91c63ab50800000000000000
+      internalID: 6603240336960952987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_42
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6bcca78333c1b30800000000000000
+      internalID: 4259335665257068215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_43
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5863c8deb1edc95e0800000000000000
+      internalID: -1901400731126319483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_44
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05292ff74894b2180800000000000000
+      internalID: -9139130185387175344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_45
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa58639cad349810800000000000000
+      internalID: 1771108364880206588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_46
+      rect:
+        serializedVersion: 2
+        x: 4600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656563ddd23a59160800000000000000
+      internalID: 7031705810589079126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_47
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8f363b3f65dccd0800000000000000
+      internalID: -2536275410453006138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_48
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b89ce162a9ef990800000000000000
+      internalID: -7350268053306111144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_49
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2e52d84f29f9f50800000000000000
+      internalID: 6890387533937894061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_50
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672786848182a22d0800000000000000
+      internalID: -3302783291963706762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_51
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596d8a587f8d47280800000000000000
+      internalID: -9046367193869527403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_52
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c283773628ca190800000000000000
+      internalID: -7949835878502224820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_53
+      rect:
+        serializedVersion: 2
+        x: 5300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdddd5bc999598c70800000000000000
+      internalID: 8973802249589218779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_54
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadbde4f92d07ba80800000000000000
+      internalID: -8451271701883404884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_55
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038361fec69406560800000000000000
+      internalID: 7304919327811450928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_56
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4353fc739dc195c30800000000000000
+      internalID: 4348538634472731956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_57
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4071c330f33f94270800000000000000
+      internalID: 8235380845586421508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_58
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919e20a315da3dad0800000000000000
+      internalID: -2678606788978087655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_59
+      rect:
+        serializedVersion: 2
+        x: 5900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618e7603bf98ec9d0800000000000000
+      internalID: -2752110610334881770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_60
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6851175b2d1eb570800000000000000
+      internalID: 8484250819994146924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_61
+      rect:
+        serializedVersion: 2
+        x: 6100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b87a111c2ffedd0800000000000000
+      internalID: -2454476360854828227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_62
+      rect:
+        serializedVersion: 2
+        x: 6200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709b007368f24f240800000000000000
+      internalID: 4824533354315561223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_63
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7239b644b266c4270800000000000000
+      internalID: 8236070154571322151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_64
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc95f463c36b0370800000000000000
+      internalID: 8289829229969120506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_65
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df372156637b35df0800000000000000
+      internalID: -192608914794974211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_66
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f090cc6727dc8a0800000000000000
+      internalID: -6283240050557120640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_67
+      rect:
+        serializedVersion: 2
+        x: 6700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f318060f6e88980800000000000000
+      internalID: -8536319173595152616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_68
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb0b649d79022c20800000000000000
+      internalID: 3180114721842596785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_69
+      rect:
+        serializedVersion: 2
+        x: 6900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cda27352b94cf1c0800000000000000
+      internalID: -4468615700005343799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_70
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d2b0a5b086620e0800000000000000
+      internalID: -2295032562134078060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_71
+      rect:
+        serializedVersion: 2
+        x: 7100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b8f4de7e5be2c60800000000000000
+      internalID: 7795368012748393275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_72
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53651ff18917cf10800000000000000
+      internalID: 2289826981662253917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_73
+      rect:
+        serializedVersion: 2
+        x: 7300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8836b24fa5bfadc0800000000000000
+      internalID: -3625479410666817394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_74
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f23c67333ca9e180800000000000000
+      internalID: -9085541437270117641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_75
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7e72690cfb5bde0800000000000000
+      internalID: -1317936482062178400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_76
+      rect:
+        serializedVersion: 2
+        x: 7600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9638621271336a0800000000000000
+      internalID: -6470802808453764631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_77
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d6ad676249c7b10800000000000000
+      internalID: 1980620829059870050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_78
+      rect:
+        serializedVersion: 2
+        x: 7800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0ecd5d3fa5906e0800000000000000
+      internalID: -1870864166884155148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_79
+      rect:
+        serializedVersion: 2
+        x: 7900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d441abc49eee600800000000000000
+      internalID: 499593124433382750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_80
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b923b428de624a50800000000000000
+      internalID: 6503882686484130229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_81
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8b101239c2d1e40800000000000000
+      internalID: 5628704119708563674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_82
+      rect:
+        serializedVersion: 2
+        x: 8200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c153a5567c7bce0800000000000000
+      internalID: -1389422721901454218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_83
+      rect:
+        serializedVersion: 2
+        x: 8300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee43bf072637c9b00800000000000000
+      internalID: 836670497423570158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_84
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbd618a08ecd47d0800000000000000
+      internalID: -2932460730377118770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_85
+      rect:
+        serializedVersion: 2
+        x: 8500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e868fc13e7cc0ce40800000000000000
+      internalID: 5674760372860454542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_86
+      rect:
+        serializedVersion: 2
+        x: 8600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe577e6c557a8b20800000000000000
+      internalID: 3137449130267729598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_87
+      rect:
+        serializedVersion: 2
+        x: 8700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be986025925f4fe20800000000000000
+      internalID: 3383598777880709611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_88
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6170e48f44e8cb500800000000000000
+      internalID: 413361692686026518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_89
+      rect:
+        serializedVersion: 2
+        x: 8900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd7633e1634c4230800000000000000
+      internalID: 3624345887829294517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_90
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e484a8d5e158920800000000000000
+      internalID: 2991830914558348819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_91
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d58fcb16f1adb00800000000000000
+      internalID: 854029583982812440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_92
+      rect:
+        serializedVersion: 2
+        x: 9200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75b1c8fb4362c060800000000000000
+      internalID: 6972244351070090621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_93
+      rect:
+        serializedVersion: 2
+        x: 9300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e02e8ebe1ace1090800000000000000
+      internalID: -8061784049551793945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_94
+      rect:
+        serializedVersion: 2
+        x: 9400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7522a2f13764df0800000000000000
+      internalID: -196342956055963672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_95
+      rect:
+        serializedVersion: 2
+        x: 9500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfbe6a3c3d4974e0800000000000000
+      internalID: -1983469239806279755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_96
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c67b756b7575a00800000000000000
+      internalID: 745160704020409368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_97
+      rect:
+        serializedVersion: 2
+        x: 9700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c180fee8b930864f0800000000000000
+      internalID: -835413764224382948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_98
+      rect:
+        serializedVersion: 2
+        x: 9800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf19c703d20131340800000000000000
+      internalID: 4833224611371717116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_99
+      rect:
+        serializedVersion: 2
+        x: 9900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe604a69d474872d0800000000000000
+      internalID: -3280793929974020369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_100
+      rect:
+        serializedVersion: 2
+        x: 10000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed1a6d19e7c931f0800000000000000
+      internalID: -1064600032861610520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_101
+      rect:
+        serializedVersion: 2
+        x: 10100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0e31940fd675060800000000000000
+      internalID: 6942138229400527020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_102
+      rect:
+        serializedVersion: 2
+        x: 10200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ed69caff2cccfc0800000000000000
+      internalID: -3473186809241477513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_103
+      rect:
+        serializedVersion: 2
+        x: 10300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59630ee8d23888c20800000000000000
+      internalID: 3208958966195304085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_104
+      rect:
+        serializedVersion: 2
+        x: 10400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f402e149f425891e0800000000000000
+      internalID: -2190910716974849969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_105
+      rect:
+        serializedVersion: 2
+        x: 10500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb31dfc8043884b0800000000000000
+      internalID: -5438039337598895109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_106
+      rect:
+        serializedVersion: 2
+        x: 10600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8f163f819a2fce0800000000000000
+      internalID: -1372849011766986574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_107
+      rect:
+        serializedVersion: 2
+        x: 10700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f03af4622c12a5c0800000000000000
+      internalID: -4205768167962038027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_108
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cd9200fc4036920800000000000000
+      internalID: 2982232665356885081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_109
+      rect:
+        serializedVersion: 2
+        x: 10900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bff3d77fc5feca90800000000000000
+      internalID: -7291620475248836682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_110
+      rect:
+        serializedVersion: 2
+        x: 11000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031fcb02ee900f020800000000000000
+      internalID: 2373407921980371248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_111
+      rect:
+        serializedVersion: 2
+        x: 11100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4b0577b4a0f1ba0800000000000000
+      internalID: -6116158449705241378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_112
+      rect:
+        serializedVersion: 2
+        x: 11200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f794d98b908a060f0800000000000000
+      internalID: -1125715147137136257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_113
+      rect:
+        serializedVersion: 2
+        x: 11300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d18686027e30110800000000000000
+      internalID: 1226077649951530330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_114
+      rect:
+        serializedVersion: 2
+        x: 11400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e811532c60c4f6040800000000000000
+      internalID: 4643013332754043278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_115
+      rect:
+        serializedVersion: 2
+        x: 11500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8daf8c219ace40230800000000000000
+      internalID: 3604265812712028888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_116
+      rect:
+        serializedVersion: 2
+        x: 11600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7a6ef2b00d1fc20800000000000000
+      internalID: 3238598353522960371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_117
+      rect:
+        serializedVersion: 2
+        x: 11700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186b9193a1c8fc260800000000000000
+      internalID: 7120063580151068289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_118
+      rect:
+        serializedVersion: 2
+        x: 11800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef34fd4460f01e680800000000000000
+      internalID: -8727678083267607554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moon5_119
+      rect:
+        serializedVersion: 2
+        x: 11900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55abb84ace56a7550800000000000000
+      internalID: 6159347507429882453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 210689bbc19efc540946c898983ddab1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      moon5_0: 6896307190856407779
+      moon5_1: -6413878636428111861
+      moon5_10: 8299088779083734191
+      moon5_100: -1064600032861610520
+      moon5_101: 6942138229400527020
+      moon5_102: -3473186809241477513
+      moon5_103: 3208958966195304085
+      moon5_104: -2190910716974849969
+      moon5_105: -5438039337598895109
+      moon5_106: -1372849011766986574
+      moon5_107: -4205768167962038027
+      moon5_108: 2982232665356885081
+      moon5_109: -7291620475248836682
+      moon5_11: 3381272998880441092
+      moon5_110: 2373407921980371248
+      moon5_111: -6116158449705241378
+      moon5_112: -1125715147137136257
+      moon5_113: 1226077649951530330
+      moon5_114: 4643013332754043278
+      moon5_115: 3604265812712028888
+      moon5_116: 3238598353522960371
+      moon5_117: 7120063580151068289
+      moon5_118: -8727678083267607554
+      moon5_119: 6159347507429882453
+      moon5_12: 5755184325049479603
+      moon5_13: 8712892605359150558
+      moon5_14: -3482578586772236629
+      moon5_15: 3581598695556646557
+      moon5_16: -694641140239762888
+      moon5_17: -6023725762191497192
+      moon5_18: 7306705401553640232
+      moon5_19: -4285416196283298122
+      moon5_2: -726656240753299546
+      moon5_20: -6482928979809440289
+      moon5_21: 5421448474519764771
+      moon5_22: -575756964779314404
+      moon5_23: 621104471481041359
+      moon5_24: -6990910067812474140
+      moon5_25: 6203851590347726193
+      moon5_26: -386208624147706663
+      moon5_27: 7974332276830595574
+      moon5_28: -8691021504680375079
+      moon5_29: -3299086571547153101
+      moon5_3: 3601903898297385432
+      moon5_30: 5050740476328355257
+      moon5_31: 5172088624065474201
+      moon5_32: 8180805521068579230
+      moon5_33: -9114624908416108799
+      moon5_34: 1595769973807342140
+      moon5_35: 3899484218409224100
+      moon5_36: -3788448727318920077
+      moon5_37: 4782682885325702947
+      moon5_38: -4251615493598768320
+      moon5_39: -8994805204229423346
+      moon5_4: 1214614902844528312
+      moon5_40: 1392017865617884398
+      moon5_41: 6603240336960952987
+      moon5_42: 4259335665257068215
+      moon5_43: -1901400731126319483
+      moon5_44: -9139130185387175344
+      moon5_45: 1771108364880206588
+      moon5_46: 7031705810589079126
+      moon5_47: -2536275410453006138
+      moon5_48: -7350268053306111144
+      moon5_49: 6890387533937894061
+      moon5_5: -3978380617381414851
+      moon5_50: -3302783291963706762
+      moon5_51: -9046367193869527403
+      moon5_52: -7949835878502224820
+      moon5_53: 8973802249589218779
+      moon5_54: -8451271701883404884
+      moon5_55: 7304919327811450928
+      moon5_56: 4348538634472731956
+      moon5_57: 8235380845586421508
+      moon5_58: -2678606788978087655
+      moon5_59: -2752110610334881770
+      moon5_6: 1364312319367571580
+      moon5_60: 8484250819994146924
+      moon5_61: -2454476360854828227
+      moon5_62: 4824533354315561223
+      moon5_63: 8236070154571322151
+      moon5_64: 8289829229969120506
+      moon5_65: -192608914794974211
+      moon5_66: -6283240050557120640
+      moon5_67: -8536319173595152616
+      moon5_68: 3180114721842596785
+      moon5_69: -4468615700005343799
+      moon5_7: 5204386436465105482
+      moon5_70: -2295032562134078060
+      moon5_71: 7795368012748393275
+      moon5_72: 2289826981662253917
+      moon5_73: -3625479410666817394
+      moon5_74: -9085541437270117641
+      moon5_75: -1317936482062178400
+      moon5_76: -6470802808453764631
+      moon5_77: 1980620829059870050
+      moon5_78: -1870864166884155148
+      moon5_79: 499593124433382750
+      moon5_8: -763252027204175958
+      moon5_80: 6503882686484130229
+      moon5_81: 5628704119708563674
+      moon5_82: -1389422721901454218
+      moon5_83: 836670497423570158
+      moon5_84: -2932460730377118770
+      moon5_85: 5674760372860454542
+      moon5_86: 3137449130267729598
+      moon5_87: 3383598777880709611
+      moon5_88: 413361692686026518
+      moon5_89: 3624345887829294517
+      moon5_9: -5053129736591912483
+      moon5_90: 2991830914558348819
+      moon5_91: 854029583982812440
+      moon5_92: 6972244351070090621
+      moon5_93: -8061784049551793945
+      moon5_94: -196342956055963672
+      moon5_95: -1983469239806279755
+      moon5_96: 745160704020409368
+      moon5_97: -835413764224382948
+      moon5_98: 4833224611371717116
+      moon5_99: -3280793929974020369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
