@@ -72,7 +72,3 @@ To run the project locally:
 2.  Open the project folder in the Unity Hub (ensure you have Unity version 6000.0.50f1 or later installed).
 3.  Open the `MainMenu` scene from the `Assets/Scenes` folder.
 4.  Press Play.
-
-## License
-
-This project is licensed under the MIT License - see the `LICENSE.md` file for details.
