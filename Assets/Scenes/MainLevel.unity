@@ -320,7 +320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 47379563}
-  - component: {fileID: 47379562}
+  - component: {fileID: 47379564}
   m_Layer: 0
   m_Name: BackgroundManager
   m_TagString: Untagged
@@ -328,20 +328,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &47379562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47379561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14670ffc1afdc264689500efa24e74db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTransform: {fileID: 519420032}
-  parallaxMultiplier: 0.9
 --- !u!4 &47379563
 Transform:
   m_ObjectHideFlags: 0
@@ -366,6 +352,20 @@ Transform:
   - {fileID: 683812593}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &47379564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47379561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa2be8887b5f68046b33da208ecc6117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 519420032}
+  backgroundTilePrefab: {fileID: 7369297877930463008, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
 --- !u!1001 &48463948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -414,6 +414,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2687919188758039054, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7369297877930463008, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
       propertyPath: m_Name
       value: Background (5)
@@ -1429,6 +1433,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2687919188758039054, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7369297877930463008, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
       propertyPath: m_Name
       value: Background (4)
@@ -2440,7 +2448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   revolutionsToWin: 2
-  revolutionText: {fileID: 0}
+  revolutionText: {fileID: 1886984843}
 --- !u!61 &563703415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3160,6 +3168,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2687919188758039054, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7369297877930463008, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
       propertyPath: m_Name
       value: Background (6)
@@ -3483,6 +3495,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2687919188758039054, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7369297877930463008, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
       propertyPath: m_Name
       value: Background (3)
@@ -4249,7 +4265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &798811161
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7100,6 +7116,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2687919188758039054, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7369297877930463008, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
       propertyPath: m_Name
       value: Background (2)
@@ -7766,6 +7786,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2687919188758039054, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7369297877930463008, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
       propertyPath: m_Name
       value: Background (8)
@@ -7823,6 +7847,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2687919188758039054, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7369297877930463008, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
       propertyPath: m_Name
       value: Background
@@ -8270,6 +8298,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2687919188758039054, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7369297877930463008, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
       propertyPath: m_Name
       value: Background (7)
@@ -9156,6 +9188,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2687919188758039054, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7369297877930463008, guid: 59c900f7a8cf68d449e00f49ea1145a9, type: 3}
       propertyPath: m_Name
       value: Background (1)
