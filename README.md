@@ -53,7 +53,6 @@ This repository contains the complete Unity project for the polished prototype.
 | **Super Boost**     | `Space` or `Left Shift` |
 | **Camera Zoom**     | `Mouse Scroll Wheel`    |
 | **Pause / Menu**    | `Escape`                |
-| **Reset Level**     | `R`                     |
 
 ## Built With
 
