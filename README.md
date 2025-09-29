@@ -67,7 +67,7 @@ To run the project locally:
 
 1.  Clone this repository:
     ```sh
-    git clone [YOUR_REPOSITORY_URL]
+    git clone https://github.com/Ghostkwebb/The-Long-Drift
     ```
 2.  Open the project folder in the Unity Hub (ensure you have Unity version 6000.0.50f1 or later installed).
 3.  Open the `MainMenu` scene from the `Assets/Scenes` folder.
