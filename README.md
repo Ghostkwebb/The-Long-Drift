@@ -6,13 +6,11 @@
   </p>
   <p>
     <a href="https://unity.com/"><img src="https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity" alt="Made with Unity"></a>
-    <a href="[LINK_TO_YOUR_ITCHIO_PAGE]"><img src="https://img.shields.io/badge/Play%20on-itch.io-fa5c5c.svg?style=for-the-badge&logo=itchdotio" alt="Play on Itch.io"></a>
+    <a href="https://ghostkwebb.itch.io/the-long-drift"><img src="https://img.shields.io/badge/Play%20on-itch.io-fa5c5c.svg?style=for-the-badge&logo=itchdotio" alt="Play on Itch.io"></a>
   </p>
 </div>
 
 ---
-
-TO PLAY THE GAME - https://ghostkwebb.itch.io/the-long-drift
 
 ### Gameplay Screenshots
 
